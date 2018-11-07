@@ -10,6 +10,8 @@ bot.on('ready', () => {
 
 bot.login(process.env.TOKEN);
 
+// -> Commande /help.
+
 bot.on('message', message => {
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()

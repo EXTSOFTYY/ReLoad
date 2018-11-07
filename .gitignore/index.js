@@ -18,7 +18,7 @@ bot.on('message', message => {
     let command = args.shift().toLowerCase();
 
     if (command === 'say') {
-        let say = args.join('');
+        let say = args.join(' ');
         message.delete();
         message.channel.send(say);
     }

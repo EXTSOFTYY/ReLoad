@@ -13,6 +13,16 @@ bot.login(process.env.TOKEN);
 // -> Commande /help.
 
 bot.on('message', message => {
+    
+    let args = message.content.slice(prefix.length).trim().split(' ');
+    let command = args.shift().toLowerCase();
+
+    if (command === 'say') {
+        let say = args.join('');
+        message.delete();
+        message.channel.send(say);
+    }
+    
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')

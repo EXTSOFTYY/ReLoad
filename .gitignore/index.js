@@ -11,11 +11,11 @@ bot.on('ready', () => {
 bot.login(process.env.TOKEN);
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "logs").send(`[ExtaziaRP BOT] LOGS -> :checkered_flag:  @${member.user.username} vient de rejoindre le serveur discord d'ExtaziaRP!`)
+    member.guild.channels.find("name", "logs").send(`[ExtaziaRP BOT] LOGS -> :checkered_flag:  <@${member.user.username}> vient de rejoindre le serveur discord d'ExtaziaRP!`)
 })
 
 bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "logs").send(`[ExtaziaRP BOT] LOGS -> :checkered_flag:  @${member.user.username} vient de quitter le serveur discord qu'il meurt en enfer!`)
+    member.guild.channels.find("name", "logs").send(`[ExtaziaRP BOT] LOGS -> :checkered_flag:  <@${member.user.username}> vient de quitter le serveur discord qu'il meurt en enfer!`)
 })
 
 bot.on('message', message => {

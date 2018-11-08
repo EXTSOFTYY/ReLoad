@@ -42,7 +42,7 @@ bot.on('message', message => {
             .addField("[BOT ExtaziaRP] - L'inventaire:", "-> /rp-i [<prénom rp>] pour afficher la carte l'inventaire d'un personnage RP.")
             .setFooter("ExtaziaRP; Développement par SOFTYY - 2018/2019.")
         message.channel.sendEmbed(help_embed);
-        console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /help [Succès].");
+        console.log("[ExtaziaRP BOT] : Un utilisateur demande la commande -> /help [Succès].");
     }
 
 });

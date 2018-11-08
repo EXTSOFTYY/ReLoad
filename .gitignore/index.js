@@ -11,11 +11,11 @@ bot.on('ready', () => {
 bot.login(process.env.TOKEN);
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "logs").send(':checkered_flag:  ${member.user.username} vient de rejoindre le discord.')
+    member.guild.channels.find("name", "logs").send(`:checkered_flag:  ${member.user.username} vient de rejoindre le discord.`)
 })
 
 bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "logs").send(':checkered_flag:  ${member.user.username} vient de quitter le discord.')
+    member.guild.channels.find("name", "logs").send(`:checkered_flag:  ${member.user.username} vient de quitter le discord.`)
 })
 
 bot.on('message', message => {

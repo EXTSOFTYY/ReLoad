@@ -37,15 +37,4 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /help [Succès].");
     }
 
-    if (message.content === prefix + "rdvrp"){
-
-    let msg = await message.channel.send("Seras-tu là à la session RP de 15h00 ? (Vote ci-dessous)");
-    await msg.react("✅");
-    await msg.react("❎");
-
-    const reactions = await msg.awaitReactions(reaction => reaction.emoji.name === "✅" || reaction.emoji.name === "❎", {time: 15000});
-    console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /rdvrp [Succès].");
-
-    }
-
 });

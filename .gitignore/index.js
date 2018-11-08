@@ -37,7 +37,7 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /help [Succès].");
     }
 
-    if (command === 'rdvrp') {
+    if (message.content === prefix + "rdvrp"){
 
     let msg = await message.channel.send("Seras-tu là à la session RP de 15h00 ? (Vote ci-dessous)");
     await msg.react(":white_check_mark:");

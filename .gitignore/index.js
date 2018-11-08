@@ -59,12 +59,31 @@ bot.on('message', message => {
             .addField("Nom:", "-> Sopoz" )
             .addField("Prénom:", "-> Saalvatore" )
             .addField("Date de naissance:", "-> 9 mars 1995" )
-            .addField("Lieux de naissance:", "-> Moscou" )
-            .addField("Sexe:", "-> Homme" )
             .addField("Nationalité", "-> Russe" )
+            .addField("Lieux de naissance:", "-> Moscou" )
+            .addField("Sexe:", "-> Masculin" )
             .setFooter("ExtaziaRP; Développement par SOFTYY - 2018/2019.")
         message.channel.sendEmbed(help_embed);
         console.log("[ExtaziaRP] : Un utilisateur demande la commande -> /rp-c Saalvatore [Succès].");
+    }
+
+    // -> Visa RP de Diego.
+
+    if (message.content === prefix + "rp-c Diego"){
+        message.delete();
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Martinez" )
+            .addField("Prénom:", "-> Diego" )
+            .addField("Date de naissance:", "-> 11 juin 1994" )
+            .addField("Nationalité", "-> Espagnole" )
+            .addField("Lieux de naissance:", "-> Madrid" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+        message.channel.sendEmbed(help_embed);
+        console.log("[ExtaziaRP] : Un utilisateur demande la commande -> /rp-c Diego [Succès].");
     }
 
 });

@@ -10,6 +10,8 @@ bot.on('ready', () => {
 
 bot.login(process.env.TOKEN);
 
+    // -> Rejoindre / quitter le serveur.
+
 bot.on("guildMemberAdd", member => {
     member.guild.channels.find("name", "logs").send(`[ExtaziaRP BOT] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur discord d'ExtaziaRP!`)
 })

@@ -37,4 +37,15 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /help [Succès].");
     }
 
+    if (command === 'rdvrp') {
+
+    let msg = await message.channel.send("Seras-tu là à la session RP de 15h00 ? (Vote ci-dessous)");
+    await msg.react(":white_check_mark:");
+    await msg.react(":negative_squared_cross_mark:");
+
+    const reactions = await msg.awaitReactions(reaction => reaction.emoji.name === ":white_check_mark:" || reaction.emoji.name === ":negative_squared_cross_mark:", {time: 15000});
+    console.log("[BOT ExtaziaRP] : Un utilisateur demande la commande -> /help [Succès].");
+
+    }
+
 });

@@ -36,6 +36,7 @@ bot.on('message', message => {
     // -> Commande /help.
     
     if (message.content === prefix + "help"){
+        message.delete();
         var help_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
@@ -45,6 +46,25 @@ bot.on('message', message => {
             .setFooter("ExtaziaRP; Développement par SOFTYY - 2018/2019.")
         message.channel.sendEmbed(help_embed);
         console.log("[ExtaziaRP BOT] : Un utilisateur demande la commande -> /help [Succès].");
+    }
+
+    // -> Visa RP de Saalvatore.
+
+    if (message.content === prefix + "rp-c Saalvatore"){
+        message.delete();
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Sopoz" )
+            .addField("Prénom:", "-> Saalvatore" )
+            .addField("Date de naissance:", "-> 9 mars 1995" )
+            .addField("Lieux de naissance:", "-> Moscou" )
+            .addField("Sexe:", "-> Homme" )
+            .addField("Nationalité", "-> Russe" )
+            .setFooter("ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+        message.channel.sendEmbed(help_embed);
+        console.log("[ExtaziaRP] : Un utilisateur demande la commande -> /rp-c Saalvatore [Succès].");
     }
 
 });

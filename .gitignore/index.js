@@ -97,6 +97,8 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /aide [Succès].");
     }
 
+    // -> Carte d'identité RP.
+
     // -> Visa RP de Saalvatore.
 
     if (message.content === prefix + "rp-c Saalvatore"){
@@ -134,6 +136,46 @@ bot.on('message', message => {
         message.channel.send(rpcdiego_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Diego [Succès].");
     }
+
+    // -> Inventaire RP
+
+    // -> Inventaire RP de Saalvatore
+
+    if (message.content === prefix + "rp-i Saalvatore"){
+        message.delete();
+        var rpisaalvatore_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .addField("Voici l'inventaire de Saalvatore :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+        message.channel.send(rpisaalvatore_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Saalvatore [Succès].");
+    }
+
+    // -> Inventaire RP de Diego.
+
+    if (message.content === prefix + "rp-i Diego"){
+        message.delete();
+        var rpidiego_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .addField("Voici l'inventaire de Diego :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+        message.channel.send(rpidiego_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Diego [Succès].");
+    }
+
+
 
 });
 

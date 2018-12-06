@@ -25,9 +25,9 @@ bot.on('message', message => {
     let args = message.content.slice(prefix.length).trim().split(' ');
     let command = args.shift().toLowerCase();
 
-    // -> Commande /say.
+    // -> Commande /sayy.
 
-    if (command === 'say') {
+    if (command === 'sayy') {
         let say = args.join(' ');
         message.delete();
         message.channel.send(say);

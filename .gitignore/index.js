@@ -1,9 +1,5 @@
 const Discord = require('discord.js');
 
-const adapter = new FileSync('database.json');
-
-db.defaults({money: []}).write()
-
 var bot = new Discord.Client();
 var prefix = ("/");
 

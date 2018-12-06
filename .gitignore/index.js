@@ -1,12 +1,18 @@
 const Discord = require('discord.js');
 
+const adapter = new FileSync('database.json');
+
+db.defaults({money: []}).write()
+
 var bot = new Discord.Client();
 var prefix = ("/");
+
+    // -> Logs d'informations.
 
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'ExtaziaRP | En cours de développement par SOFTYY.', type : 0}})
     console.log("[BOT ExtaziaRP] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
-});
+});    
 
     // -> Rejoindre / quitter le serveur.
 
@@ -93,6 +99,7 @@ bot.on('message', message => {
             .addField("[BOT ExtaziaRP] - Carte d'identité:", "-> /rp-c [<prénom rp>] pour afficher la carte d'identité d'un personnage RP.")
             .addField("[BOT ExtaziaRP] - L'inventaire:", "-> /rp-i [<prénom rp>] pour afficher l'inventaire d'un personnage RP.")
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
         message.channel.send(aide_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /aide [Succès].");
     }
@@ -114,6 +121,7 @@ bot.on('message', message => {
             .addField("Lieux de naissance:", "-> Moscou" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
         message.channel.send(rpcsaalvatore_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Saalvatore [Succès].");
     }
@@ -133,6 +141,7 @@ bot.on('message', message => {
             .addField("Lieux de naissance:", "-> Madrid" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
         message.channel.send(rpcdiego_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Diego [Succès].");
     }
@@ -153,6 +162,7 @@ bot.on('message', message => {
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
         message.channel.send(rpisaalvatore_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Saalvatore [Succès].");
     }
@@ -171,6 +181,7 @@ bot.on('message', message => {
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
         message.channel.send(rpidiego_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Diego [Succès].");
     }

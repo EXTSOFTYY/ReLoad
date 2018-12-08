@@ -31,7 +31,7 @@ bot.on('message', message => {
         let say = args.join(' ');
         message.delete();
         message.channel.send(say);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /say [<message>] [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
     }
 
     // Sondage RP - 15h00.

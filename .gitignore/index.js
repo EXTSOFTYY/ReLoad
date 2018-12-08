@@ -112,7 +112,7 @@ bot.on('message', message => {
         message.delete();
         var rpcsaalvatore_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-saalvatoremartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Sopoz" )
             .addField("Prénom:", "-> Saalvatore" )
@@ -132,7 +132,7 @@ bot.on('message', message => {
         message.delete();
         var rpcdiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-diegomartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Martinez" )
             .addField("Prénom:", "-> Diego" )
@@ -154,7 +154,7 @@ bot.on('message', message => {
         message.delete();
         var rpisaalvatore_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-saalvatoremartinez.png")
             .addField("Voici l'inventaire de Saalvatore :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
@@ -173,7 +173,7 @@ bot.on('message', message => {
         message.delete();
         var rpidiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-diegomartinez.png")
             .addField("Voici l'inventaire de Diego :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )

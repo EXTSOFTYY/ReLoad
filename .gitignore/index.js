@@ -92,7 +92,6 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
             .addField("Les commandes :", "─────────────────────")
-            .addField("[BOT ExtaziaRP] - Anonyme:", "-> /anonyme [<message>] pour parler de façon anonyme sur le twitter.")
             .addField("[BOT ExtaziaRP] - Carte d'identité:", "-> /rp-c [<prénom rp>] pour afficher la carte d'identité d'un personnage RP.")
             .addField("[BOT ExtaziaRP] - L'inventaire:", "-> /rp-i [<prénom rp>] pour afficher l'inventaire d'un personnage RP.")
             .addField("[BOT ExtaziaRP] - Économie:", "-> /money [<id discord>] pour afficher le compte bancaire d'un personnage RP.")

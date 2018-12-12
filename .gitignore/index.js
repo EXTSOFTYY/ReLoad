@@ -292,7 +292,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Voici l'inventaire de Guy :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )

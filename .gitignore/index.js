@@ -132,7 +132,7 @@ bot.on('message', message => {
         message.delete();
         var rpcdiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-diegomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/4/1544705910-diegomartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Martinez" )
             .addField("Prénom:", "-> Diego" )
@@ -233,7 +233,7 @@ bot.on('message', message => {
         message.delete();
         var rpidiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-diegomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/4/1544705910-diegomartinez.png")
             .addField("Voici l'inventaire de Diego :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )

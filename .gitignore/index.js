@@ -150,7 +150,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-c Rodrigo"){
         message.delete();
-        var rpcdiego_embed = new Discord.RichEmbed()
+        var rpcrodrigo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619092-rodrigomartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
@@ -162,7 +162,7 @@ bot.on('message', message => {
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcdiego_embed);
+        message.channel.send(rpcrodrigo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Rodrigo [Succès].");
     }
     
@@ -170,7 +170,7 @@ bot.on('message', message => {
     
     if (message.content === prefix + "rp-c Juan"){
         message.delete();
-        var rpcdiego_embed = new Discord.RichEmbed()
+        var rpcjuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
@@ -182,7 +182,7 @@ bot.on('message', message => {
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcdiego_embed);
+        message.channel.send(rpcjuan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Juan [Succès].");
     }
     
@@ -190,7 +190,7 @@ bot.on('message', message => {
     
     if (message.content === prefix + "rp-c Guy"){
         message.delete();
-        var rpcdiego_embed = new Discord.RichEmbed()
+        var rpcguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
@@ -202,7 +202,7 @@ bot.on('message', message => {
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcdiego_embed);
+        message.channel.send(rpcguy_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Guy [Succès].");
     }
     
@@ -210,7 +210,7 @@ bot.on('message', message => {
     
     if (message.content === prefix + "rp-c Pablo"){
         message.delete();
-        var rpcdiego_embed = new Discord.RichEmbed()
+        var rpcpablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
@@ -222,8 +222,28 @@ bot.on('message', message => {
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcdiego_embed);
+        message.channel.send(rpcpablo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Pablo [Succès].");
+    }
+    
+    // -> Visa RP de Lucas.
+    
+    if (message.content === prefix + "rp-c Lucas"){
+        message.delete();
+        var rpclucas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Ford" )
+            .addField("Prénom:", "-> Lucas" )
+            .addField("Date de naissance:", "-> 17 juin 1999" )
+            .addField("Nationalité", "-> Italien" )
+            .addField("Lieux de naissance:", "-> Venise" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpclucas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Lucas [Succès].");
     }
 
     // -> Inventaire RP
@@ -270,7 +290,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-i Rodrigo"){
         message.delete();
-        var rpidiego_embed = new Discord.RichEmbed()
+        var rpirodrigo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619092-rodrigomartinez.png")
             .addField("Voici l'inventaire de Rodrigo :", "─────────────────────" )
@@ -281,7 +301,7 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpidiego_embed);
+        message.channel.send(rpirodrigo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Rodrigo [Succès].");
     }
     
@@ -289,7 +309,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-i Juan"){
         message.delete();
-        var rpidiego_embed = new Discord.RichEmbed()
+        var rpijuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Voici l'inventaire de Juan :", "─────────────────────" )
@@ -300,7 +320,7 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpidiego_embed);
+        message.channel.send(rpijuan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Juan [Succès].");
     }
     
@@ -308,7 +328,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-i Guy"){
         message.delete();
-        var rpidiego_embed = new Discord.RichEmbed()
+        var rpiguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Voici l'inventaire de Guy :", "─────────────────────" )
@@ -319,7 +339,7 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpidiego_embed);
+        message.channel.send(rpiguy_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Guy [Succès].");
     }
     
@@ -327,7 +347,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-i Pablo"){
         message.delete();
-        var rpidiego_embed = new Discord.RichEmbed()
+        var rpipablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
             .addField("Voici l'inventaire de Pablo :", "─────────────────────" )
@@ -338,8 +358,27 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpidiego_embed);
+        message.channel.send(rpipablo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Pablo [Succès].");
+    }
+    
+    // -> Inventaire RP de Lucas.
+
+    if (message.content === prefix + "rp-i Lucas"){
+        message.delete();
+        var rpilucas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .addField("Voici l'inventaire de Lucas :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpilucas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Lucas [Succès].");
     }
 
 

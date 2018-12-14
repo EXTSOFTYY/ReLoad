@@ -172,7 +172,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544816985-juangarcia.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Garcia" )
             .addField("Prénom:", "-> Juan" )
@@ -311,7 +311,7 @@ bot.on('message', message => {
         message.delete();
         var rpijuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544816985-juangarcia.png")
             .addField("Voici l'inventaire de Juan :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )

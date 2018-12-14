@@ -132,7 +132,7 @@ bot.on('message', message => {
         message.delete();
         var rpcdiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/4/1544705910-diegomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808513-diegomartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Martinez" )
             .addField("Prénom:", "-> Diego" )
@@ -172,7 +172,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Garcia" )
             .addField("Prénom:", "-> Juan" )
@@ -192,7 +192,7 @@ bot.on('message', message => {
         message.delete();
         var rpcguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Hart" )
             .addField("Prénom:", "-> Guy" )
@@ -212,7 +212,7 @@ bot.on('message', message => {
         message.delete();
         var rpcpablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Cannors" )
             .addField("Prénom:", "-> Pablo" )
@@ -232,7 +232,7 @@ bot.on('message', message => {
         message.delete();
         var rpclucas_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Ford" )
             .addField("Prénom:", "-> Lucas" )
@@ -273,7 +273,7 @@ bot.on('message', message => {
         message.delete();
         var rpidiego_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/4/1544705910-diegomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808513-diegomartinez.png")
             .addField("Voici l'inventaire de Diego :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )
@@ -311,7 +311,7 @@ bot.on('message', message => {
         message.delete();
         var rpijuan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Juan :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
@@ -330,7 +330,7 @@ bot.on('message', message => {
         message.delete();
         var rpiguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Guy :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
@@ -349,7 +349,7 @@ bot.on('message', message => {
         message.delete();
         var rpipablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Pablo :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
@@ -368,7 +368,7 @@ bot.on('message', message => {
         message.delete();
         var rpilucas_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619707-person-male.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Lucas :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )

@@ -72,8 +72,8 @@ bot.on('message', message => {
                 .setTimestamp()
             message.channel.send(sondagerp21h_embed)
             .then(function (message) {
-                message.react("❎")
                 message.react("✅")
+                message.react("❎")
                 console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
             }).catch(function() {
             });

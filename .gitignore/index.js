@@ -106,24 +106,24 @@ bot.on('message', message => {
 
     // -> Carte d'identité RP.
 
-    // -> Visa RP de Saalvatore.
+    // -> Visa RP de Saalva.
 
-    if (message.content === prefix + "rp-c Saalvatore"){
+    if (message.content === prefix + "rp-c Saalva"){
         message.delete();
-        var rpcsaalvatore_embed = new Discord.RichEmbed()
+        var rpcsaalva_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-saalvatoremartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Sopoz" )
-            .addField("Prénom:", "-> Saalvatore" )
+            .addField("Prénom:", "-> Saalva" )
             .addField("Date de naissance:", "-> 9 mars 1995" )
             .addField("Nationalité", "-> Russe" )
             .addField("Lieux de naissance:", "-> Moscou" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcsaalvatore_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Saalvatore [Succès].");
+        message.channel.send(rpcsaalva_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Saalva [Succès].");
     }
 
     // -> Visa RP de Diego.
@@ -290,9 +290,9 @@ bot.on('message', message => {
 
     // -> Inventaire RP de Saalvatore
 
-    if (message.content === prefix + "rp-i Saalvatore"){
+    if (message.content === prefix + "rp-i Saalva"){
         message.delete();
-        var rpisaalvatore_embed = new Discord.RichEmbed()
+        var rpisaalva_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/49/6/1544284972-saalvatoremartinez.png")
             .addField("Voici l'inventaire de Saalvatore :", "─────────────────────" )
@@ -303,8 +303,8 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpisaalvatore_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Saalvatore [Succès].");
+        message.channel.send(rpisaalva_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Saalva [Succès].");
     }
 
     // -> Inventaire RP de Diego.

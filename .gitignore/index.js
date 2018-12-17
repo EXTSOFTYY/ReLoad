@@ -285,6 +285,26 @@ bot.on('message', message => {
         message.channel.send(rpctom_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tom [Succès].");
     }
+    
+    // -> Visa RP de Ayoub.
+    
+    if (message.content === prefix + "rp-c Ayoub"){
+        message.delete();
+        var rpcayoub_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Heni" )
+            .addField("Prénom:", "-> Ayoub" )
+            .addField("Date de naissance:", "-> 16 juillet 1995" )
+            .addField("Nationalité", "-> Marocaine" )
+            .addField("Lieux de naissance:", "-> Agadir" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcayoub_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Ayoub [Succès].");
+    }
 
     // -> Inventaire RP
 
@@ -447,7 +467,7 @@ bot.on('message', message => {
         var rpitom_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
-            .addField("Voici l'inventaire de Steven :", "─────────────────────" )
+            .addField("Voici l'inventaire de Tom :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
@@ -457,6 +477,25 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpitom_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tom [Succès].");
+    }
+    
+    // -> Inventaire RP de Ayoub.
+
+    if (message.content === prefix + "rp-i Ayoub"){
+        message.delete();
+        var rpiayoub_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Ayoub :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiayoub_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Ayoub [Succès].");
     }
 
 

@@ -146,24 +146,24 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Calvin [Succès].");
     }
     
-     // -> Visa RP de Rodrigo.
+     // -> Visa RP de Jay.
 
-    if (message.content === prefix + "rp-c Rodrigo"){
+    if (message.content === prefix + "rp-c Jay"){
         message.delete();
-        var rpcrodrigo_embed = new Discord.RichEmbed()
+        var rpcrjay_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619092-rodrigomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545068727-jaybrown.png")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Martinez" )
-            .addField("Prénom:", "-> Rodrigo" )
-            .addField("Date de naissance:", "-> 27 décembre 1997" )
-            .addField("Nationalité", "-> Espagnole" )
-            .addField("Lieux de naissance:", "-> Madrid" )
+            .addField("Nom:", "-> Brown" )
+            .addField("Prénom:", "-> Jay" )
+            .addField("Date de naissance:", "-> 25 mai 1998" )
+            .addField("Nationalité", "-> Américain" )
+            .addField("Lieux de naissance:", "-> Los Santos" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcrodrigo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Rodrigo [Succès].");
+        message.channel.send(rpcjay_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Jay [Succès].");
     }
     
     // -> Visa RP de Juan.
@@ -326,14 +326,14 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Calvin [Succès].");
     }
     
-    // -> Inventaire RP de Rodrigo.
+    // -> Inventaire RP de Jay.
 
-    if (message.content === prefix + "rp-i Rodrigo"){
+    if (message.content === prefix + "rp-i Jay"){
         message.delete();
-        var rpirodrigo_embed = new Discord.RichEmbed()
+        var rpijay_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/3/1544619092-rodrigomartinez.png")
-            .addField("Voici l'inventaire de Rodrigo :", "─────────────────────" )
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545068727-jaybrown.png")
+            .addField("Voici l'inventaire de Jay :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> ::negative_squared_cross_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
@@ -341,8 +341,8 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpirodrigo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Rodrigo [Succès].");
+        message.channel.send(rpijay_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Jay [Succès].");
     }
     
     // -> Inventaire RP de Juan.

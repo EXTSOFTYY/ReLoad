@@ -132,7 +132,7 @@ bot.on('message', message => {
         message.delete();
         var rpccalvin_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808513-diegomartinez.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-calvincole.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Cole" )
             .addField("Prénom:", "-> Calvin" )

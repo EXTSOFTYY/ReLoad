@@ -106,24 +106,24 @@ bot.on('message', message => {
 
     // -> Carte d'identité RP.
 
-    // -> Visa RP de Mattew.
+    // -> Visa RP de Matthew.
 
-    if (message.content === prefix + "rp-c Mattew"){
+    if (message.content === prefix + "rp-c Matthew"){
         message.delete();
-        var rpcmattew_embed = new Discord.RichEmbed()
+        var rpcmatthew_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-mattewwalt.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Walt" )
-            .addField("Prénom:", "-> Mattew" )
+            .addField("Prénom:", "-> Matthew" )
             .addField("Date de naissance:", "-> 9 mars 1999" )
             .addField("Nationalité", "-> Américain" )
             .addField("Lieux de naissance:", "-> Los Santos" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcmattew_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mattew [Succès].");
+        message.channel.send(rpcmatthew_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Matthew [Succès].");
     }
 
     // -> Visa RP de Calvin.
@@ -288,14 +288,14 @@ bot.on('message', message => {
 
     // -> Inventaire RP
 
-    // -> Inventaire RP de Mattew
+    // -> Inventaire RP de Matthew
 
-    if (message.content === prefix + "rp-i Mattew"){
+    if (message.content === prefix + "rp-i Matthew"){
         message.delete();
-        var rpimattew_embed = new Discord.RichEmbed()
+        var rpimatthew_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-calvincole.png")
-            .addField("Voici l'inventaire de Mattew :", "─────────────────────" )
+            .addField("Voici l'inventaire de Matthew :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
@@ -303,7 +303,7 @@ bot.on('message', message => {
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpimattew_embed);
+        message.channel.send(rpimatthew_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mattew [Succès].");
     }
 

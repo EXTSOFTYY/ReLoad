@@ -150,7 +150,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-c Jay"){
         message.delete();
-        var rpcrjay_embed = new Discord.RichEmbed()
+        var rpcjay_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545068727-jaybrown.png")
             .addField("Carte d'identité :", "─────────────────────" )

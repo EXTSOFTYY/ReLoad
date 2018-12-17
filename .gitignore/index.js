@@ -130,7 +130,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-c Calvin"){
         message.delete();
-        var rpccalvino_embed = new Discord.RichEmbed()
+        var rpccalvin_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808513-diegomartinez.png")
             .addField("Carte d'identité :", "─────────────────────" )

@@ -294,7 +294,7 @@ bot.on('message', message => {
         message.delete();
         var rpimatthew_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-calvincole.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-mattewwalt.png")
             .addField("Voici l'inventaire de Matthew :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )

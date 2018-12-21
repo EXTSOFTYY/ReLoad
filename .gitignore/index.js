@@ -90,7 +90,7 @@ bot.on('message', message => {
         message.delete();
         var aide_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/45/3/1541615757-logo.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
             .addField("Les commandes :", "─────────────────────")
             .addField("[BOT ExtaziaRP] - Carte d'identité:", "-> /rp-c [<prénom rp>] pour afficher la carte d'identité d'un personnage RP.")
             .addField("[BOT ExtaziaRP] - L'inventaire:", "-> /rp-i [<prénom rp>] pour afficher l'inventaire d'un personnage RP.")
@@ -110,6 +110,7 @@ bot.on('message', message => {
 
     if (message.content === prefix + "rp-c Matthew"){
         message.delete();
+        message.channel.send("Voici la carte d'identité de Matthew Walt:")
         var rpcmatthew_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-mattewwalt.png")

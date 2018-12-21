@@ -59,22 +59,22 @@ bot.on('message', message => {
 
     }
 
-    // Sondage RP - 20h00.
+    // Sondage RP - 21h00.
 
-    if (message.content === prefix + "sondagerp-20h") {
+    if (message.content === prefix + "sondagerp-21h") {
         if(message.author.id == "406124485612142592"){
             message.delete();
-            var sondagerp20h_embed = new Discord.RichEmbed()
+            var sondagerp21h_embed = new Discord.RichEmbed()
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 20h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
+                .addField("Seras-tu disponible à la session RP de 21h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
                 .setColor('#CC2EFA')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
-            message.channel.send(sondagerp20h_embed)
+            message.channel.send(sondagerp21h_embed)
             .then(function (message) {
                 message.react("❎")
                 message.react("✅")
-                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-20h [Succès].");
+                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
             }).catch(function() {
             });
         }else{
@@ -327,6 +327,46 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Brisse [Succès].");
     }
 
+    // -> Visa RP de Walk.
+    
+    if (message.content === prefix + "rp-c Walk"){
+        message.delete();
+        var rpcwalk_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Booster" )
+            .addField("Prénom:", "-> Walk" )
+            .addField("Date de naissance:", "-> 4 mai 2002" )
+            .addField("Nationalité", "-> Turc" )
+            .addField("Lieux de naissance:", "-> Istanbul" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcwalk_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Walk [Succès].");
+    }
+
+    // -> Visa RP de Kad.
+    
+    if (message.content === prefix + "rp-c Kad"){
+        message.delete();
+        var rpckad_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Illaq" )
+            .addField("Prénom:", "-> Kad" )
+            .addField("Date de naissance:", "-> 28 mars 1998" )
+            .addField("Nationalité", "-> Amériquaine" )
+            .addField("Lieux de naissance:", "-> Texas" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpckad_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Kad [Succès].");
+    }
+
     // -> Inventaire RP
 
     // -> Inventaire RP de Matthew
@@ -536,6 +576,44 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpibrisse_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Brisse [Succès].");
+    }
+
+    // -> Inventaire RP de Walk.
+
+    if (message.content === prefix + "rp-i Walk"){
+        message.delete();
+        var rpiwalk_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Walk :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiwalk_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Walk [Succès].");
+    }
+
+    // -> Inventaire RP de Kad.
+
+    if (message.content === prefix + "rp-i Kad"){
+        message.delete();
+        var rpikad_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Kad :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpikad_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Kad [Succès].");
     }
 
 

@@ -586,7 +586,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Walk :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )

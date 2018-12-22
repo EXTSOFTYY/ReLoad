@@ -316,7 +316,7 @@ bot.on('message', message => {
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Booster" )
             .addField("Prénom:", "-> Walk" )
-            .addField("Date de naissance:", "-> 4 mai 2002" )
+            .addField("Date de naissance:", "-> 4 mai 1990" )
             .addField("Nationalité", "-> Turc" )
             .addField("Lieux de naissance:", "-> Istanbul" )
             .addField("Sexe:", "-> Masculin" )

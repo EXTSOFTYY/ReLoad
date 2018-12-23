@@ -405,6 +405,46 @@ bot.on('message', message => {
         message.channel.send(rpcfavelas_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Favelas [Succès].");
     }
+    
+    // -> Visa RP de Anthony.
+    
+    if (message.content === prefix + "rp-c Anthony"){
+        message.delete();
+        var rpcfavelaas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Slay" )
+            .addField("Prénom:", "-> Anthony" )
+            .addField("Date de naissance:", "-> 9 mars 1995" )
+            .addField("Nationalité", "-> Américain" )
+            .addField("Lieux de naissance:", "-> Los Angeles" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcfavelaas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Anthony [Succès].");
+    }
+    
+    // -> Visa RP de Brandon.
+    
+    if (message.content === prefix + "rp-c Brandon"){
+        message.delete();
+        var rpcfaveelas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Skofild" )
+            .addField("Prénom:", "-> Brandon" )
+            .addField("Date de naissance:", "-> 15 mars 1993" )
+            .addField("Nationalité", "-> Américain" )
+            .addField("Lieux de naissance:", "-> Los Angeles" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcfaveelas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Brandon [Succès].");
+    }
 
 
 
@@ -737,6 +777,44 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpifavelas_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Favelas [Succès].");
+    }
+    
+    // -> Inventaire RP de Anthony.
+
+    if (message.content === prefix + "rp-i Anthony"){
+        message.delete();
+        var rpijamees_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Anthony :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpijamees_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Anthony [Succès].");
+    }
+    
+    // -> Inventaire RP de Brandon.
+
+    if (message.content === prefix + "rp-i Brandon"){
+        message.delete();
+        var rpijamess_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Brandon :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpijamess_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Brandon [Succès].");
     }
 
 

@@ -546,8 +546,8 @@ bot.on('message', message => {
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :white_check_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :white_check_mark:   ─   :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpiguillaume_embed);
@@ -562,7 +562,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545059644-calvincole.png")
             .addField("Voici l'inventaire de Calvin :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
@@ -581,11 +581,11 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/51/1/1545068727-jaybrown.png")
             .addField("Voici l'inventaire de Jay :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :white_check_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijay_embed);
@@ -623,7 +623,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :white_check_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpiguy_embed);
@@ -782,7 +782,7 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i James [Succès].");
     }
 
-    // -> Inventaire RP de James.
+    // -> Inventaire RP de Yanis.
 
     if (message.content === prefix + "rp-i Yanis"){
         message.delete();
@@ -791,10 +791,10 @@ bot.on('message', message => {
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Yanis :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :white_check_mark:" )
+            .addField("PPA (Léger / Lourd):", "-> :white_check_mark:   ─   :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpiyanis_embed);
@@ -848,7 +848,7 @@ bot.on('message', message => {
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Brandon :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
@@ -866,7 +866,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Jason :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )

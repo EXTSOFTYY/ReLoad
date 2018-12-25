@@ -226,26 +226,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Lucas [Succès].");
     }
     
-    // -> Visa RP de Tom.
-    
-    if (message.content === prefix + "rp-c Tom"){
-        message.delete();
-        var rpctom_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Pellegrino" )
-            .addField("Prénom:", "-> Tom" )
-            .addField("Date de naissance:", "-> 23 juillet 1995" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Strasbourg" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpctom_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tom [Succès].");
-    }
-    
     // -> Visa RP de Ayoub.
     
     if (message.content === prefix + "rp-c Ayoub"){
@@ -364,26 +344,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcjames_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c James [Succès].");
-    }
-
-    // -> Visa RP de Yanis.
-    
-    if (message.content === prefix + "rp-c Yanis"){
-        message.delete();
-        var rpcyanis_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Méné" )
-            .addField("Prénom:", "-> Yanis" )
-            .addField("Date de naissance:", "-> 24 décembre 1992" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Paris" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcyanis_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Yanis [Succès].");
     }
 
     // -> Visa RP de Favelas.
@@ -649,25 +609,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Lucas [Succès].");
     }
     
-    // -> Inventaire RP de Tom.
-
-    if (message.content === prefix + "rp-i Tom"){
-        message.delete();
-        var rpitom_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
-            .addField("Voici l'inventaire de Tom :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpitom_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tom [Succès].");
-    }
-    
     // -> Inventaire RP de Ayoub.
 
     if (message.content === prefix + "rp-i Ayoub"){
@@ -780,25 +721,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpijames_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i James [Succès].");
-    }
-
-    // -> Inventaire RP de Yanis.
-
-    if (message.content === prefix + "rp-i Yanis"){
-        message.delete();
-        var rpiyanis_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
-            .addField("Voici l'inventaire de Yanis :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:" )
-            .addField("Permis Moto:", "-> :white_check_mark: " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :white_check_mark:" )
-            .addField("PPA (Léger / Lourd):", "-> :white_check_mark:   ─   :negative_squared_cross_mark:" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpiyanis_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Yanis [Succès].");
     }
 
     // -> Inventaire RP de Favelas.

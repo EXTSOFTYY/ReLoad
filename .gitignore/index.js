@@ -116,7 +116,7 @@ bot.on('message', message => {
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Popa" )
             .addField("Prénom:", "-> Guillaume" )
-            .addField("Date de naissance:", "-> 9 mars 1999" )
+            .addField("Date de naissance:", "-> 9 mars 1996" )
             .addField("Nationalité", "-> Belge" )
             .addField("Lieux de naissance:", "-> Bruxelles" )
             .addField("Sexe:", "-> Masculin" )
@@ -444,6 +444,46 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcfaaaveeilas_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Antonio [Succès].");
+    }
+    
+    // -> Visa RP de Karim.
+    
+    if (message.content === prefix + "rp-c Karim"){
+        message.delete();
+        var rpcfaaaveeialas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Zehma" )
+            .addField("Prénom:", "-> Karim" )
+            .addField("Date de naissance:", "-> 6 mai 1993" )
+            .addField("Nationalité", "-> Français" )
+            .addField("Lieux de naissance:", "-> Paris" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcfaaaveeialas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Karim [Succès].");
+    }
+    
+    // -> Visa RP de Jack.
+    
+    if (message.content === prefix + "rp-c Jack"){
+        message.delete();
+        var rpcfzaaaveeilas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Elfastino" )
+            .addField("Prénom:", "-> Jack" )
+            .addField("Date de naissance:", "-> 20 avril 1985" )
+            .addField("Nationalité", "-> Italien" )
+            .addField("Lieux de naissance:", "-> Naple" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcfzaaaveeilas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Jack [Succès].");
     }
 
 
@@ -816,6 +856,44 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiijameess_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Antonio [Succès].");
+    }
+    
+    // -> Inventaire RP de Karim.
+
+    if (message.content === prefix + "rp-i Karim"){
+        message.delete();
+        var rpiijameeses_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Karim :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiijameeses_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Karim [Succès].");
+    }
+    
+    // -> Inventaire RP de Jack.
+
+    if (message.content === prefix + "rp-i Jack"){
+        message.delete();
+        var rpiiqjameess_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Jack :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiiqjameess_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Jack [Succès].");
     }
 
 

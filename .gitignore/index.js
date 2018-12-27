@@ -312,7 +312,7 @@ bot.on('message', message => {
         message.delete();
         var rpckad_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/j5ua.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Illaq" )
             .addField("Prénom:", "-> Kad" )
@@ -452,7 +452,7 @@ bot.on('message', message => {
         message.delete();
         var rpcfaaaveeialas_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/y05e.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Zehma" )
             .addField("Prénom:", "-> Karim" )
@@ -492,7 +492,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjules_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/tr4b.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Voulot" )
             .addField("Prénom:", "-> Jules" )
@@ -512,7 +512,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjulos_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/k3sh.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Lespinard" )
             .addField("Prénom:", "-> Louis" )
@@ -771,7 +771,7 @@ bot.on('message', message => {
         message.delete();
         var rpikad_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/j5ua.png")
             .addField("Voici l'inventaire de Kad :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :white_check_mark: " )
@@ -904,7 +904,7 @@ bot.on('message', message => {
         message.delete();
         var rpiijameeses_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/y05e.png")
             .addField("Voici l'inventaire de Karim :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
@@ -942,7 +942,7 @@ bot.on('message', message => {
         message.delete();
         var rpiiqjaameess_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/k3sh.png")
             .addField("Voici l'inventaire de Louis :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
@@ -961,7 +961,7 @@ bot.on('message', message => {
         message.delete();
         var rpijules_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/18/52/tr4b.png")
             .addField("Voici l'inventaire de Jules :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :white_check_mark:" )

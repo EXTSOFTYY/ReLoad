@@ -246,24 +246,24 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Ayoub [Succès].");
     }
 
-    // -> Visa RP de Jonny.
+    // -> Visa RP de Tony.
     
-    if (message.content === prefix + "rp-c Jonny"){
+    if (message.content === prefix + "rp-c Tony"){
         message.delete();
         var rpcjonny_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Sherchlidé" )
-            .addField("Prénom:", "-> Jonny" )
-            .addField("Date de naissance:", "-> 5 février 1998" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Lyon" )
+            .addField("Nom:", "-> Guardioli" )
+            .addField("Prénom:", "-> Tony" )
+            .addField("Date de naissance:", "-> 13 août 1986" )
+            .addField("Nationalité", "-> Italien" )
+            .addField("Lieux de naissance:", "-> Naples" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpcjonny_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Ayoub [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tony [Succès].");
     }
 
     // -> Visa RP de Brisse.
@@ -728,15 +728,15 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Ayoub [Succès].");
     }
 
-    // -> Inventaire RP de Jonny.
+    // -> Inventaire RP de Tony.
 
-    if (message.content === prefix + "rp-i Jonny"){
+    if (message.content === prefix + "rp-i Tony"){
         message.delete();
         var rpijonny_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Jonny :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
@@ -744,7 +744,7 @@ bot.on('message', message => {
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijonny_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Jonny [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tony [Succès].");
     }
 
     // -> Inventaire RP de Brisse.

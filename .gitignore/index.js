@@ -686,7 +686,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpicalvin_embed);
@@ -1066,7 +1066,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "->  :negative_squared_cross_mark:" )
+            .addField("PPA:", "->  :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijuloes_embed);
@@ -1104,7 +1104,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :white_check_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "->  :negative_squared_cross_mark:" )
+            .addField("PPA:", "->  :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpimehdi_embed);
@@ -1123,7 +1123,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "->  :negative_squared_cross_mark:" )
+            .addField("PPA:", "->  :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpimike_embed);

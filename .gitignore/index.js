@@ -34,14 +34,14 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
     }
 
-    // Sondage RP - 16h00.
+    // Sondage RP - 15h00.
 
-    if (message.content === prefix + "sondagerp-16h") {
+    if (message.content === prefix + "sondagerp-15h") {
         if(message.author.id == "406124485612142592"){
             message.delete();
             var sondagerp15h_embed = new Discord.RichEmbed()
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 16h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
+                .addField("Seras-tu disponible à la session RP de 15h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
                 .setColor('#CC2EFA')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
@@ -49,7 +49,7 @@ bot.on('message', message => {
             .then(function (message) {
                 message.react("❎")
                 message.react("✅")
-                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-16h [Succès].");
+                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-15h [Succès].");
             }).catch(function() {
             });
         }else{

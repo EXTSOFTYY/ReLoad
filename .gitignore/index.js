@@ -112,7 +112,7 @@ bot.on('message', message => {
         message.delete();
         var rpcguillaume_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/51/3we1.png")
+            .setThumbnail("https://zupimages.net/up/18/52/q0ts.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Popa" )
             .addField("Prénom:", "-> Guillaume" )
@@ -641,7 +641,7 @@ bot.on('message', message => {
         message.delete();
         var rpiguillaume_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/51/3we1.png")
+            .setThumbnail("https://zupimages.net/up/18/52/q0ts.png")
             .addField("Voici l'inventaire de Guillaume :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark: " )

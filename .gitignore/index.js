@@ -776,11 +776,11 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/18/52/810v.png")
             .addField("Voici l'inventaire de Tony :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :white_check_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijonny_embed);
@@ -951,7 +951,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :white_check_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpiijameess_embed);

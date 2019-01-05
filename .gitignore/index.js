@@ -819,7 +819,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/18/52/810v.png")
             .addField("Voici l'inventaire de Tony :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :white_check_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )

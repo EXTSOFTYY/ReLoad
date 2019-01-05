@@ -646,6 +646,29 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Élisa [Succès].");
     }
 
+    // -> Visa RP de Alejandro.
+    
+    if (message.content === prefix + "rp-c Alejandro"){
+        message.delete();
+        var rpcalejandro_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Don Cheto " )
+            .addField("Prénom:", "-> Alejandro" )
+            .addField("Date de naissance:", "-> 21 février 1976" )
+            .addField("Nationalité", "-> Mexicain" )
+            .addField("Lieux de naissance:", "-> Mexico" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcalejandro_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alejandro [Succès].");
+    }
+    
+    
+
+
 
 
 
@@ -1208,6 +1231,25 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpielisa_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Élisa [Succès].");
+    }
+    
+    // -> Inventaire RP de Alejandro.
+
+    if (message.content === prefix + "rp-i Alejandro"){
+        message.delete();
+        var rpialejandro_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .addField("Voici l'inventaire de Alejandro :", "─────────────────────" )
+            .addField("Permis Voiture:", "->  :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
+            .addField("PPA:", "-> :negative_squared_cross_mark:" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpialejandro_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alejandro [Succès].");
     }
 
 

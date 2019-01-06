@@ -212,7 +212,7 @@ bot.on('message', message => {
         message.delete();
         var rpcayoub_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/7qsw.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Lroumain" )
             .addField("Prénom:", "-> Romain" )
@@ -572,7 +572,7 @@ bot.on('message', message => {
         message.delete();
         var rpcdavid_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/e1er.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Coleman " )
             .addField("Prénom:", "-> David" )
@@ -612,7 +612,7 @@ bot.on('message', message => {
         message.delete();
         var rpcenzo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/h2fq.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Tinken " )
             .addField("Prénom:", "-> Enzo" )
@@ -821,7 +821,7 @@ bot.on('message', message => {
         message.delete();
         var rpiayoub_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/7qsw.png")
             .addField("Voici l'inventaire de Romain :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
@@ -1163,7 +1163,7 @@ bot.on('message', message => {
         message.delete();
         var rpidavid_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/e1er.png")
             .addField("Voici l'inventaire de David :", "─────────────────────" )
             .addField("Permis Voiture:", "->  :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
@@ -1201,7 +1201,7 @@ bot.on('message', message => {
         message.delete();
         var rpienzo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/01/h2fq.png")
             .addField("Voici l'inventaire de Enzo :", "─────────────────────" )
             .addField("Permis Voiture:", "->  :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )

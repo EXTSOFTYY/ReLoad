@@ -931,7 +931,7 @@ bot.on('message', message => {
         message.delete();
         var rpijonny_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/52/810v.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Bryan :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )

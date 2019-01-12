@@ -59,27 +59,27 @@ bot.on('message', message => {
 
     }
 
-    // Sondage RP - 20h00.
+    // Sondage RP - 21h00.
 
-    if (message.content === prefix + "sondagerp-20h") {
+    if (message.content === prefix + "sondagerp-21h") {
         if(message.author.id == "406124485612142592"){
             message.delete();
-            var sondagerp20h_embed = new Discord.RichEmbed()
+            var sondagerp21h_embed = new Discord.RichEmbed()
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 20h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
+                .addField("Seras-tu disponible à la session RP de 21h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
                 .setColor('#CC2EFA')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
-            message.channel.send(sondagerp20h_embed)
+            message.channel.send(sondagerp21h_embed)
             .then(function (message) {
                 message.react("❎")
                 message.react("✅")
-                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-20h [Succès].");
+                console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
             }).catch(function() {
             });
         }else{
             message.delete();
-            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-20h [Succès].");
+            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-21h [Succès].");
         }
 
     }

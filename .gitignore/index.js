@@ -246,24 +246,24 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Romain Lroumain [Succès].");
     }
 
-    // -> Visa RP de Tony.
+    // -> Visa RP de Bryan.
     
-    if (message.content === prefix + "rp-c Tony Guardioli"){
+    if (message.content === prefix + "rp-c Bryan Johnson"){
         message.delete();
         var rpcjonny_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/52/810v.png")
+            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Guardioli" )
-            .addField("Prénom:", "-> Tony" )
-            .addField("Date de naissance:", "-> 13 août 1986" )
-            .addField("Nationalité", "-> Italien" )
-            .addField("Lieux de naissance:", "-> Naples" )
+            .addField("Nom:", "-> Johnson" )
+            .addField("Prénom:", "-> Bryan" )
+            .addField("Date de naissance:", "-> 14 mai 1996" )
+            .addField("Nationalité", "-> Americain" )
+            .addField("Lieux de naissance:", "-> Chicago" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpcjonny_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tony Guardioli [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bryan Johnson [Succès].");
     }
 
     // -> Visa RP de Brisse.
@@ -914,8 +914,8 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/19/01/7qsw.png")
             .addField("Voici l'inventaire de Romain :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Voiture:", "-> :white_check_mark:" )
+            .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA:", "-> :negative_squared_cross_mark:" )
@@ -925,23 +925,23 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Romain Lroumain [Succès].");
     }
 
-    // -> Inventaire RP de Tony.
+    // -> Inventaire RP de Bryan.
 
-    if (message.content === prefix + "rp-i Tony Guardioli"){
+    if (message.content === prefix + "rp-i Bryan Johnson"){
         message.delete();
         var rpijonny_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/18/52/810v.png")
-            .addField("Voici l'inventaire de Tony :", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:" )
-            .addField("Permis Moto:", "-> :white_check_mark:" )
+            .addField("Voici l'inventaire de Bryan :", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "-> :white_check_mark:" )
+            .addField("PPA:", "-> :negative_squared_cross_mark:" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijonny_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tony Guardioli [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Bryan Johnson [Succès].");
     }
 
     // -> Inventaire RP de Brisse.
@@ -1029,7 +1029,7 @@ bot.on('message', message => {
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Favelas :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA:", "-> :white_check_mark:" )
@@ -1351,8 +1351,8 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
             .addField("Voici l'inventaire de Katchan :", "─────────────────────" )
-            .addField("Permis Voiture:", "->  :negative_squared_cross_mark:" )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:" )
+            .addField("Permis Voiture:", "->  :white_check_mark:" )
+            .addField("Permis Moto:", "-> :white_check_mark:" )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
             .addField("PPA:", "-> :negative_squared_cross_mark:" )

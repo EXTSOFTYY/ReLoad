@@ -272,7 +272,7 @@ bot.on('message', message => {
         message.delete();
         var rpcbrisse_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/02/jq5b.png")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Denisse" )
             .addField("Prénom:", "-> Brisse" )
@@ -950,7 +950,7 @@ bot.on('message', message => {
         message.delete();
         var rpibrisse_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("http://image.noelshack.com/fichiers/2018/50/5/1544808418-person-male.png")
+            .setThumbnail("https://zupimages.net/up/19/02/jq5b.png")
             .addField("Voici l'inventaire de Brisse :", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:" )
             .addField("Permis Moto:", "-> :white_check_mark:" )

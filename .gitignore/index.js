@@ -526,26 +526,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Yanis Méné [Succès].");
     }
     
-    // -> Visa RP de Mehdi.
-    
-    if (message.content === prefix + "rp-c Mehdi Ooredoo"){
-        message.delete();
-        var rpcyaniss_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/52/rh5j.png")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Ooredoo" )
-            .addField("Prénom:", "-> Mehdi" )
-            .addField("Date de naissance:", "-> 18 juin 1988" )
-            .addField("Nationalité", "-> Tunisien" )
-            .addField("Lieux de naissance:", "-> M'saken" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcyaniss_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mehdi Ooredoo [Succès].");
-    }
-    
     // -> Visa RP de Mike.
     
     if (message.content === prefix + "rp-c Mike Marshall"){
@@ -1189,25 +1169,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiyanis_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Yanis Méné [Succès].");
-    }
-    
-    // -> Inventaire RP de Mehdi.
-
-    if (message.content === prefix + "rp-i Mehdi Ooredoo"){
-        message.delete();
-        var rpimehdi_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/18/52/rh5j.png")
-            .addField("Voici l'inventaire de Mehdi :", "─────────────────────" )
-            .addField("Permis Voiture:", "->  :negative_squared_cross_mark:" )
-            .addField("Permis Moto:", "-> :white_check_mark:" )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark:" )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:   ─   :negative_squared_cross_mark:" )
-            .addField("PPA:", "->  :white_check_mark:" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpimehdi_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mehdi Ooredoo [Succès].");
     }
     
     // -> Inventaire RP de Mike.

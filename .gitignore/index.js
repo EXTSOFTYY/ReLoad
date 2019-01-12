@@ -54,7 +54,7 @@ bot.on('message', message => {
             });
         }else{
             message.delete();
-            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-16h [Succès].");
+            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-15h [Succès].");
         }
 
     }
@@ -79,7 +79,7 @@ bot.on('message', message => {
             });
         }else{
             message.delete();
-            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-15h [Succès].");
+            console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur n'ayant pas la permission demande la commande -> /sondagerp-20h [Succès].");
         }
 
     }

@@ -388,7 +388,7 @@ bot.on('message', message => {
 
     // -> Visa RP de Mehdi.
 
-    if (message.content === prefix + "rp-c Mehdi Yacoun"){
+    if (message.content === prefix + "rp-c Mehdi Yacoub"){
         message.delete();
         var rpcmehdi_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')

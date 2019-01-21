@@ -516,7 +516,7 @@ bot.on('message', message => {
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Bakugo" )
             .addField("Prénom:", "-> Katchan" )
-            .addField("Date de naissance:", "-> 27 maï 1998" )
+            .addField("Date de naissance:", "-> 27 mai 1998" )
             .addField("Nationalité", "-> Française" )
             .addField("Lieux de naissance:", "-> Bordeaux" )
             .addField("Sexe:", "-> Masculin" )
@@ -524,6 +524,46 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpckatchan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Katchan Bakugo [Succès].");
+    }
+    
+    // -> Visa RP de Matheo.
+ 
+    if (message.content === prefix + "rp-c Matheo Tieks"){
+        message.delete();
+        var rpcmatheo_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Tieks" )
+            .addField("Prénom:", "-> Matheo" )
+            .addField("Date de naissance:", "-> 20 juin 1999" )
+            .addField("Nationalité", "-> Américian" )
+            .addField("Lieux de naissance:", "-> Las Vegas" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcmatheo_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Matheo Tieks [Succès].");
+    }
+    
+    // -> Visa RP de Aly.
+ 
+    if (message.content === prefix + "rp-c Aly Gatares"){
+        message.delete();
+        var rpcmatheo_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Gatares" )
+            .addField("Prénom:", "-> Aly" )
+            .addField("Date de naissance:", "-> 25 mars 1995" )
+            .addField("Nationalité", "-> Français" )
+            .addField("Lieux de naissance:", "-> Beauvais" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcmatheo_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Aly Gatares [Succès].");
     }
 
 
@@ -995,6 +1035,44 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpikatchan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Katchan Bakugo [Succès].");
+    }
+    
+    // -> Inventaire RP de Matheo
+ 
+    if (message.content === prefix + "rp-i Matheo Tieks"){
+        message.delete();
+        var rpimatheo_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .addField("Voici l'inventaire de Matheo Tieks:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpimatheo_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Matheo Tieks [Succès].");
+    }
+    
+    // -> Inventaire RP de Aly
+ 
+    if (message.content === prefix + "rp-i Aly Gatares"){
+        message.delete();
+        var rpialy_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .addField("Voici l'inventaire de Aly Gatares:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpialy_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Aly Gatares [Succès].");
     }
 
 });

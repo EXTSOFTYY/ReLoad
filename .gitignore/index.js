@@ -25,15 +25,6 @@ bot.on('message', message => {
     let args = message.content.slice(prefix.length).trim().split(' ');
     let command = args.shift().toLowerCase();
 
-    // -> Commande /sayy.
-
-    if (command === 'sayy') {
-        let say = args.join(' ');
-        message.delete();
-        message.channel.send(say);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sayy [<message>] [Succès].");
-    }
-
     // Sondage RP - 15h00.
 
     if (message.content === prefix + "sondagerp-15h") {

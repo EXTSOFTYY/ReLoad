@@ -152,7 +152,7 @@ bot.on('message', message => {
         message.delete();
         var rpcYoussef_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/7e32.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Ait" )
             .addField("Prénom:", "-> Youssef" )
@@ -592,7 +592,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjameis_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/n7lv.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Rodríguez" )
             .addField("Prénom:", "-> James" )
@@ -612,7 +612,7 @@ bot.on('message', message => {
         message.delete();
         var rpczarko_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/8t6o.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Markovic" )
             .addField("Prénom:", "-> Zarko" )
@@ -782,7 +782,7 @@ bot.on('message', message => {
         message.delete();
         var rpiyoussef_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/7e32.jpg")
             .addField("Voici l'inventaire de Youssef Ait:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )
@@ -1200,7 +1200,7 @@ bot.on('message', message => {
         message.delete();
         var rpijamese_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/n7lv.jpg")
             .addField("Voici l'inventaire de James Rodríguez:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1219,7 +1219,7 @@ bot.on('message', message => {
         message.delete();
         var rpizarko_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/8t6o.jpg")
             .addField("Voici l'inventaire de Zarko Marković:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

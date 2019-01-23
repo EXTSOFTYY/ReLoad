@@ -606,26 +606,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c James Rodriguez [Succès].");
     }
     
-    // -> Visa RP de Bernard.
-
-    if (message.content === prefix + "rp-c Bernard Sanchez"){
-        message.delete();
-        var rpcbernard_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Sanchez" )
-            .addField("Prénom:", "-> Bernard" )
-            .addField("Date de naissance:", "-> 12 juillet 1994" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Paris" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcbernard_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bernard Sanchez [Succès].");
-    }
-    
     // -> Visa RP de Zarko.
 
     if (message.content === prefix + "rp-c Zarko Markovic"){
@@ -1233,28 +1213,9 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i James Rodríguez [Succès].");
     }
     
-    // -> Inventaire RP de Bernard
-
-    if (message.content === prefix + "rp-i Bernard Sanchez"){
-        message.delete();
-        var rpibernard_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Bernard Sanchez:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpibernard_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Bernard Sanchez [Succès].");
-    }
-    
     // -> Inventaire RP de Zarko
 
-    if (message.content === prefix + "rp-i Zarko Marcovic"){
+    if (message.content === prefix + "rp-i Zarko Markovic"){
         message.delete();
         var rpizarko_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
@@ -1268,7 +1229,7 @@ bot.on('message', message => {
             .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpizarko_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zarko Marcović [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zarko Markovic [Succès].");
     }
     
     // -> Inventaire RP de Francisco

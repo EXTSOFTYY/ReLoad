@@ -266,26 +266,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Brandon Skofild [Succès].");
     }
 
-    // -> Visa RP de Élisa.
-
-    if (message.content === prefix + "rp-c Élisa Watson"){
-        message.delete();
-        var rpcelisa_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Watson" )
-            .addField("Prénom:", "-> Élisa" )
-            .addField("Date de naissance:", "-> 18 juillet 1998" )
-            .addField("Nationalité", "-> Américaine" )
-            .addField("Lieux de naissance:", "-> New York" )
-            .addField("Sexe:", "-> Féminin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcelisa_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Élisa Watson [Succès].");
-    }
-
     // -> Visa RP de James.
 
     if (message.content === prefix + "rp-c James Skofild"){
@@ -888,25 +868,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpibrandon_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Brandon Skofild [Succès].");
-    }
-
-    // -> Inventaire RP de Elisa
-
-    if (message.content === prefix + "rp-i Élisa Watson"){
-        message.delete();
-        var rpielisa_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Élisa Watson:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpielisa_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Élisa Watson [Succès].");
     }
 
     // -> Inventaire RP de James

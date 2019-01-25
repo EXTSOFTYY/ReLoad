@@ -132,7 +132,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjules_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/bw80.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Voulot" )
             .addField("Prénom:", "-> Jules" )
@@ -743,7 +743,7 @@ bot.on('message', message => {
         message.delete();
         var rpijules_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/bw80.jpg")
             .addField("Voici l'inventaire de Jules Voulot:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )

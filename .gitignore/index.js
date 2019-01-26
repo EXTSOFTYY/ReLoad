@@ -936,7 +936,7 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/19/04/jnn2.jpg")
             .addField("Voici l'inventaire de Rodrigo Martinez:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :white_check_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )

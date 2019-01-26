@@ -412,7 +412,7 @@ bot.on('message', message => {
         message.delete();
         var rpcpablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/bcwi.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Don Cheto" )
             .addField("Prénom:", "-> Pablo" )
@@ -432,7 +432,7 @@ bot.on('message', message => {
         message.delete();
         var rpcalejandro_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/e193.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Don Cheto" )
             .addField("Prénom:", "-> Alejandro" )
@@ -532,7 +532,7 @@ bot.on('message', message => {
         message.delete();
         var rpcmatheo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/2jrj.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Gatares" )
             .addField("Prénom:", "-> Aly" )
@@ -612,7 +612,7 @@ bot.on('message', message => {
         message.delete();
         var rpcfrancisco_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/6qv9.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Don Cheto" )
             .addField("Prénom:", "-> Francisco" )
@@ -1009,7 +1009,7 @@ bot.on('message', message => {
         message.delete();
         var rpipablo_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/bcwi.jpg")
             .addField("Voici l'inventaire de Pablo Don Cheto:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1028,7 +1028,7 @@ bot.on('message', message => {
         message.delete();
         var rpialejandro_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/e193.jpg")
             .addField("Voici l'inventaire de Alejandro Don Cheto:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1123,7 +1123,7 @@ bot.on('message', message => {
         message.delete();
         var rpialy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/2jrj.jpg")
             .addField("Voici l'inventaire de Aly Gatares:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1199,7 +1199,7 @@ bot.on('message', message => {
         message.delete();
         var rpifrancisco_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/6qv9.jpg")
             .addField("Voici l'inventaire de Francisco Don Cheto:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

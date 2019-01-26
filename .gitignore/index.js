@@ -272,7 +272,7 @@ bot.on('message', message => {
         message.delete();
         var rpcjames_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/xwm3.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Skofild" )
             .addField("Prénom:", "-> James" )
@@ -876,7 +876,7 @@ bot.on('message', message => {
         message.delete();
         var rpijames_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/04/xwm3.jpg")
             .addField("Voici l'inventaire de James Skofild:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

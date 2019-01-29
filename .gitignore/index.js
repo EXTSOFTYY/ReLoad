@@ -971,7 +971,7 @@ bot.on('message', message => {
         message.delete();
         var rpimehdi_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
             .addField("Voici l'inventaire de Mehdi Yacoub:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )

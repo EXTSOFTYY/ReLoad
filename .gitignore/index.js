@@ -326,26 +326,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Guy Hart [Succès].");
     }
 
-    // -> Visa RP de Rodrigo.
-
-    if (message.content === prefix + "rp-c Rodrigo Martinez"){
-        message.delete();
-        var rpcjay_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/jnn2.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Martinez" )
-            .addField("Prénom:", "-> Rodrigo" )
-            .addField("Date de naissance:", "-> 25 décembre 1997" )
-            .addField("Nationalité", "-> Espagnole" )
-            .addField("Lieux de naissance:", "-> Madrid" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcjay_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Rodrigo Martinez [Succès].");
-    }
-
     // -> Visa RP de Walk.
 
     if (message.content === prefix + "rp-c Walk Booster"){
@@ -384,26 +364,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcmehdi_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mehdi Yacoub [Succès].");
-    }
-
-    // -> Visa RP de Diego.
-
-    if (message.content === prefix + "rp-c Diego Martinez"){
-        message.delete();
-        var rpcdiego_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/cc9y.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Martinez" )
-            .addField("Prénom:", "-> Diego" )
-            .addField("Date de naissance:", "-> 11 juin 1994" )
-            .addField("Nationalité", "-> Espagnole" )
-            .addField("Lieux de naissance:", "-> Madrid" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcdiego_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Diego Martinez [Succès].");
     }
 
     // -> Visa RP de Pablo.
@@ -927,25 +887,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Guy Hart [Succès].");
     }
 
-    // -> Inventaire RP de Rodrigo
-
-    if (message.content === prefix + "rp-i Rodrigo Martinez"){
-        message.delete();
-        var rpijay_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/jnn2.jpg")
-            .addField("Voici l'inventaire de Rodrigo Martinez:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpijay_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Rodrigo Martinez [Succès].");
-    }
-
     // -> Inventaire RP de Walk
 
     if (message.content === prefix + "rp-i Walk Booster"){
@@ -982,25 +923,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpimehdi_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mehdi Yacoub [Succès].");
-    }
-
-    // -> Inventaire RP de Diego
-
-    if (message.content === prefix + "rp-i Diego Martinez"){
-        message.delete();
-        var rpidiego_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/cc9y.jpg")
-            .addField("Voici l'inventaire de Diego Martinez:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :white_check_mark: " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpidiego_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Diego Martinez [Succès].");
     }
 
     // -> Inventaire RP de Pablo

@@ -626,6 +626,26 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Franck Castle [Succès].");
     }
     
+    // -> Visa RP de Marković.
+
+    if (message.content === prefix + "rp-c Marković Marko"){
+        message.delete();
+        var rpcmarkovic_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Marko" )
+            .addField("Prénom:", "-> Marković" )
+            .addField("Date de naissance:", "-> 23 mai 1996" )
+            .addField("Nationalité", "-> Serbe" )
+            .addField("Lieux de naissance:", "-> Belgrade" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+         message.channel.send(rpcmarkovic_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Marković Marko [Succès].");
+    }
+    
     
 
 
@@ -1193,6 +1213,25 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpifranck_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Franck Castle [Succès].");
+    }
+    
+    // -> Inventaire RP de Marković
+
+    if (message.content === prefix + "rp-i Marković Marko"){
+        message.delete();
+        var rpimarkovic_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .addField("Voici l'inventaire de Marković Marko:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpimarkovic_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Marković Marko [Succès].");
     }
     
     

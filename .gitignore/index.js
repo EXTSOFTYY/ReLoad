@@ -206,26 +206,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c David Coleman [Succès].");
     }
 
-    // -> Visa RP de Antonio.
-
-    if (message.content === prefix + "rp-c Antonio Perazzi"){
-        message.delete();
-        var rpcantonio_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Perazzi" )
-            .addField("Prénom:", "-> Antonio" )
-            .addField("Date de naissance:", "-> 01 juillet 1994" )
-            .addField("Nationalité", "-> Italienne" )
-            .addField("Lieux de naissance:", "-> Rome" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcantonio_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Antonio Perrazi [Succès].");
-    }
-
     // -> Visa RP de Kad.
 
     if (message.content === prefix + "rp-c Kad Illaq"){
@@ -364,46 +344,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcmehdi_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mehdi Yacoub [Succès].");
-    }
-
-    // -> Visa RP de Pablo.
-
-    if (message.content === prefix + "rp-c Pablo Don Cheto"){
-        message.delete();
-        var rpcpablo_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/bcwi.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Don Cheto" )
-            .addField("Prénom:", "-> Pablo" )
-            .addField("Date de naissance:", "-> 28 octobre 1997" )
-            .addField("Nationalité", "-> Mexico-Américain" )
-            .addField("Lieux de naissance:", "-> Mexique" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcpablo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Pablo Don Cheto [Succès].");
-    }
-
-    // -> Visa RP de Alejandro.
-
-    if (message.content === prefix + "rp-c Alejandro Don Cheto"){
-        message.delete();
-        var rpcalejandro_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/e193.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Don Cheto" )
-            .addField("Prénom:", "-> Alejandro" )
-            .addField("Date de naissance:", "-> 21 fevrier 1976" )
-            .addField("Nationalité", "-> Mexico-Américain" )
-            .addField("Lieux de naissance:", "-> Mexique" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcalejandro_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alejandro Don Cheto [Succès].");
     }
 
     // -> Visa RP de Bryan.
@@ -564,26 +504,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpczarko_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Zarko Markovic [Succès].");
-    }
-    
-    // -> Visa RP de Francisco.
-
-    if (message.content === prefix + "rp-c Francisco Don Cheto"){
-        message.delete();
-        var rpcfrancisco_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6qv9.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Don Cheto" )
-            .addField("Prénom:", "-> Francisco" )
-            .addField("Date de naissance:", "-> 11 janvier 1985" )
-            .addField("Nationalité", "-> Mexicaine" )
-            .addField("Lieux de naissance:", "-> Mexiquo" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcfrancisco_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Francisco Don Cheto [Succès].");
     }
     
     // -> Visa RP de Sergeï .
@@ -875,25 +795,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i David Coleman [Succès].");
     }
 
-    // -> Inventaire RP de Antonio
-
-    if (message.content === prefix + "rp-i Antonio Perazzi"){
-        message.delete();
-        var rpiantonio_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Antonio Perazzi:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpiantonio_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Antonio Perazzi [Succès].");
-    }
-
     // -> Inventaire RP de Kad
 
     if (message.content === prefix + "rp-i Kad Illaq"){
@@ -1027,43 +928,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mehdi Yacoub [Succès].");
     }
 
-    // -> Inventaire RP de Pablo
-
-    if (message.content === prefix + "rp-i Pablo Don Cheto"){
-        message.delete();
-        var rpipablo_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/bcwi.jpg")
-            .addField("Voici l'inventaire de Pablo Don Cheto:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpipablo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Pablo Don Cheto [Succès].");
-    }
-
-    // -> Inventaire RP de Alejandro
-
-    if (message.content === prefix + "rp-i Alejandro Don Cheto"){
-        message.delete();
-        var rpialejandro_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/e193.jpg")
-            .addField("Voici l'inventaire de Alejandro Don Cheto:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpialejandro_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alejandro Don Cheto [Succès].");
-    }
 
     // -> Inventaire RP de Bryan
 
@@ -1215,25 +1079,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpizarko_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zarko Markovic [Succès].");
-    }
-    
-    // -> Inventaire RP de Francisco
-
-    if (message.content === prefix + "rp-i Francisco Don Cheto"){
-        message.delete();
-        var rpifrancisco_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6qv9.jpg")
-            .addField("Voici l'inventaire de Francisco Don Cheto:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpifrancisco_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Francisco Don Cheto [Succès].");
     }
     
     // -> Inventaire RP de Sergeï

@@ -626,16 +626,16 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Franck Castle [Succès].");
     }
     
-    // -> Visa RP de Marković.
+    // -> Visa RP de Marko.
 
-    if (message.content === prefix + "rp-c Marković Marko"){
+    if (message.content === prefix + "rp-c Marko Markovic"){
         message.delete();
         var rpcmarkovic_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Marko" )
-            .addField("Prénom:", "-> Marković" )
+            .addField("Nom:", "-> Markovic" )
+            .addField("Prénom:", "-> Marko" )
             .addField("Date de naissance:", "-> 23 mai 1996" )
             .addField("Nationalité", "-> Serbe" )
             .addField("Lieux de naissance:", "-> Belgrade" )
@@ -643,7 +643,7 @@ bot.on('message', message => {
             .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
          message.channel.send(rpcmarkovic_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Marković Marko [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Marko Markovic [Succès].");
     }
     
     
@@ -1215,14 +1215,14 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Franck Castle [Succès].");
     }
     
-    // -> Inventaire RP de Marković
+    // -> Inventaire RP de Marko
 
-    if (message.content === prefix + "rp-i Marković Marko"){
+    if (message.content === prefix + "rp-i Marko Markovic"){
         message.delete();
         var rpimarkovic_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Marković Marko:", "─────────────────────" )
+            .addField("Voici l'inventaire de Marko Markovic:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
@@ -1231,7 +1231,7 @@ bot.on('message', message => {
             .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpimarkovic_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Marković Marko [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Marko Markovic [Succès].");
     }
     
     

@@ -606,26 +606,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Pablo Tino [Succès].");
     }
     
-    // -> Visa RP de Franck.
-
-    if (message.content === prefix + "rp-c Franck Castle"){
-        message.delete();
-        var rpcfranck_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/05/gnm0.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Castle" )
-            .addField("Prénom:", "-> Franck" )
-            .addField("Date de naissance:", "-> 5 novembre 1988" )
-            .addField("Nationalité", "-> Américain" )
-            .addField("Lieux de naissance:", "-> Bronx" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP;  Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcfranck_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Franck Castle [Succès].");
-    }
-    
     // -> Visa RP de Marko.
 
     if (message.content === prefix + "rp-c Marko Markovic"){
@@ -1254,25 +1234,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpipablo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Pablo Tino [Succès].");
-    }
-    
-    // -> Inventaire RP de Franck
-
-    if (message.content === prefix + "rp-i Franck Castle"){
-        message.delete();
-        var rpifranck_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/05/gnm0.jpg ")
-            .addField("Voici l'inventaire de Franck Castle:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpifranck_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Franck Castle [Succès].");
     }
     
     // -> Inventaire RP de Marko

@@ -332,7 +332,7 @@ bot.on('message', message => {
         message.delete();
         var rpcmehdi_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/05/7xoy.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Yacoub" )
             .addField("Prénom:", "-> Mehdi" )
@@ -352,7 +352,7 @@ bot.on('message', message => {
         message.delete();
         var rpcbryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/05/af9a.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Johnson" )
             .addField("Prénom:", "-> Bryan" )
@@ -612,7 +612,7 @@ bot.on('message', message => {
         message.delete();
         var rpcfranck_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/05/gnm0.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Castle" )
             .addField("Prénom:", "-> Franck" )
@@ -935,7 +935,7 @@ bot.on('message', message => {
         message.delete();
         var rpimehdi_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/05/7xoy.jpg")
             .addField("Voici l'inventaire de Mehdi Yacoub:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )
@@ -955,7 +955,7 @@ bot.on('message', message => {
         message.delete();
         var rpibryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/05/af9a.jpg ")
             .addField("Voici l'inventaire de Bryan Johnson:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1202,7 +1202,7 @@ bot.on('message', message => {
         message.delete();
         var rpifranck_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/05/gnm0.jpg ")
             .addField("Voici l'inventaire de Franck Castle:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

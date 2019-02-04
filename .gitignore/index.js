@@ -186,26 +186,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mike Marshall [Succès].");
     }
 
-    // -> Visa RP de David.
-
-    if (message.content === prefix + "rp-c David Coleman"){
-        message.delete();
-        var rpcdavid_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Coleman" )
-            .addField("Prénom:", "-> David" )
-            .addField("Date de naissance:", "-> 28 mars 1978" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Paris" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcdavid_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c David Coleman [Succès].");
-    }
-
     // -> Visa RP de Kad.
 
     if (message.content === prefix + "rp-c Kad Illaq"){
@@ -834,25 +814,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpimike_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mike Marshall [Succès].");
-    }
-
-    // -> Inventaire RP de David
-
-    if (message.content === prefix + "rp-i David Coleman"){
-        message.delete();
-        var rpidavid_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de David Coleman:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpidavid_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i David Coleman [Succès].");
     }
 
     // -> Inventaire RP de Kad

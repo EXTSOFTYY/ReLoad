@@ -146,24 +146,24 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Jules Voulot [Succès].");
     }
 
-    // -> Visa RP de Youssef.
+    // -> Visa RP de Evan.
 
-    if (message.content === prefix + "rp-c Youssef Ait"){
+    if (message.content === prefix + "rp-c Evan Guibert"){
         message.delete();
-        var rpcYoussef_embed = new Discord.RichEmbed()
+        var rpcevan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/19/04/7e32.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Ait" )
-            .addField("Prénom:", "-> Youssef" )
-            .addField("Date de naissance:", "-> 16 juillet 1990" )
+            .addField("Nom:", "-> Guibert" )
+            .addField("Prénom:", "-> Evan" )
+            .addField("Date de naissance:", "-> 11 novembre 1990" )
             .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Bordeaux" )
+            .addField("Lieux de naissance:", "-> Seclin" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpcYoussef_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Youssef Ait [Succès].");
+        message.channel.send(rpcevan_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Evan Guibert [Succès].");
     }
 
     // -> Visa RP de Mike.
@@ -778,23 +778,23 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Jules Voulot [Succès].");
     }
 
-    // -> Inventaire RP de Youssef
+    // -> Inventaire RP de Evan
 
-    if (message.content === prefix + "rp-i Youssef Ait"){
+    if (message.content === prefix + "rp-i Evan Guibert"){
         message.delete();
-        var rpiyoussef_embed = new Discord.RichEmbed()
+        var rpievan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/19/04/7e32.jpg")
-            .addField("Voici l'inventaire de Youssef Ait:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
+            .addField("Voici l'inventaire de Evan Guibert:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpiyoussef_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Youssef Aït [Succès].");
+        message.channel.send(rpievan_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Evan Guibert [Succès].");
     }
 
     // -> Inventaire RP de Mike

@@ -572,7 +572,7 @@ bot.on('message', message => {
         message.delete();
         var rpcmarkovic_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/06/z5ng.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Markovic" )
             .addField("Prénom:", "-> Marko" )
@@ -606,7 +606,7 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Malik Nzonzi [Succès].");
     }
     
-    // -> Visa RP de Atonio.
+    // -> Visa RP de Antonio.
 
     if (message.content === prefix + "rp-c Antonio Mantel"){
         message.delete();
@@ -1286,7 +1286,7 @@ bot.on('message', message => {
         message.delete();
         var rpimarkovic_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/06/z5ng.jpg ")
             .addField("Voici l'inventaire de Marko Markovic:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

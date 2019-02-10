@@ -345,46 +345,6 @@ bot.on('message', message => {
         message.channel.send(rpcbryan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bryan Johnson [Succès].");
     }
-
-    // -> Visa RP de Favelas.
-
-    if (message.content === prefix + "rp-c Favelas Bangbang"){
-        message.delete();
-        var rpcfavelas_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Bangbang" )
-            .addField("Prénom:", "-> Favelas" )
-            .addField("Date de naissance:", "-> 17 avril 1994" )
-            .addField("Nationalité", "-> Brésilien" )
-            .addField("Lieux de naissance:", "-> Rio de Janeiro" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcfavelas_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bryan Johnson [Succès].");
-    }
-
-    // -> Visa RP de Katchan.
- 
-    if (message.content === prefix + "rp-c Katchan Bakugo"){
-        message.delete();
-        var rpckatchan_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Bakugo" )
-            .addField("Prénom:", "-> Katchan" )
-            .addField("Date de naissance:", "-> 27 mai 1998" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Bordeaux" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpckatchan_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Katchan Bakugo [Succès].");
-    }
     
     // -> Visa RP de Matheo.
  
@@ -424,26 +384,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcmatheo_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Aly Gatares [Succès].");
-    }
-    
-    // -> Visa RP de Foulé.
-
-    if (message.content === prefix + "rp-c Foulé Aziz"){
-        message.delete();
-        var rpcfoule_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Aziz" )
-            .addField("Prénom:", "-> Foulé" )
-            .addField("Date de naissance:", "-> 27 décembre 1990" )
-            .addField("Nationalité", "-> Marocaine" )
-            .addField("Lieux de naissance:", "-> Rabat" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcfoule_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Foulé Aziz [Succès].");
     }
     
     // -> Visa RP de James.
@@ -664,27 +604,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcalex_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Genki [Succès].");
-    }
-
-    
-    // -> Visa RP de Jack.
-
-    if (message.content === prefix + "rp-c Jack Maverick"){
-        message.delete();
-        var rpcjack_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/06/38ll.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Maverick" )
-            .addField("Prénom:", "-> Jack" )
-            .addField("Date de naissance:", "-> 27 septembre 1994" )
-            .addField("Nationalité", "-> Belge" )
-            .addField("Lieux de naissance:", "-> Charleroi" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcjack_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Jack Maverick [Succès].");
     }
     
     // -> Visa RP de John.
@@ -1070,44 +989,6 @@ bot.on('message', message => {
         message.channel.send(rpibryan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Bryan Johnson [Succès].");
     }
-
-    // -> Inventaire RP de Favelas
-
-    if (message.content === prefix + "rp-i Favelas Bangbang"){
-        message.delete();
-        var rpifavelas_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Favelas Bangbang:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpifavelas_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Favelas Bangbang [Succès].");
-    }
-
-    // -> Inventaire RP de Katchan
- 
-    if (message.content === prefix + "rp-i Katchan Bakugo"){
-        message.delete();
-        var rpikatchan_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Katchan Bakugo:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpikatchan_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Katchan Bakugo [Succès].");
-    }
     
     // -> Inventaire RP de Matheo
  
@@ -1145,25 +1026,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpialy_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Aly Gatares [Succès].");
-    }
-    
-    // -> Inventaire RP de Foulé
-
-    if (message.content === prefix + "rp-i Foulé Aziz"){
-        message.delete();
-        var rpifoule_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Foulé Aziz:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpifoule_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Foulé Aziz [Succès].");
     }
     
     // -> Inventaire RP de James
@@ -1392,25 +1254,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpijohn_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i John Maverick [Succès].");
-    }
-    
-    // -> Inventaire RP de Jack
-
-    if (message.content === prefix + "rp-i Jack Maverick"){
-        message.delete();
-        var rpijack_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/06/38ll.jpg ")
-            .addField("Voici l'inventaire de Jack Maverick:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpijack_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Jack Maverick [Succès].");
     }
     
     // -> Inventaire RP de Scypak

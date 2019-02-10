@@ -606,26 +606,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Genki [Succès].");
     }
     
-    // -> Visa RP de John.
-
-    if (message.content === prefix + "rp-c John Maverick"){
-        message.delete();
-        var rpcjohn_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Maverick" )
-            .addField("Prénom:", "-> John" )
-            .addField("Date de naissance:", "-> 28 février 1993" )
-            .addField("Nationalité", "-> Belge" )
-            .addField("Lieux de naissance:", "-> Charleroi" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcjohn_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c John Maverick [Succès].");
-    }
-    
     // -> Visa RP de Scypak.
 
     if (message.content === prefix + "rp-c Scypak Opak"){
@@ -1235,25 +1215,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpialex_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alex Genki [Succès].");
-    }
-    
-    // -> Inventaire RP de John
-
-    if (message.content === prefix + "rp-i John Maverick"){
-        message.delete();
-        var rpijohn_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de John Maverick:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpijohn_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i John Maverick [Succès].");
     }
     
     // -> Inventaire RP de Scypak

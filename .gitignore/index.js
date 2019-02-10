@@ -206,26 +206,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Kad Illaq [Succès].");
     }
 
-    // -> Visa RP de Brandon.
-
-    if (message.content === prefix + "rp-c Brandon Skofild"){
-        message.delete();
-        var rpcbrandon_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/yh1k.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Skofild" )
-            .addField("Prénom:", "-> Brandon" )
-            .addField("Date de naissance:", "-> 14 maï 1997" )
-            .addField("Nationalité", "-> Américaine" )
-            .addField("Lieux de naissance:", "-> Los Angeles" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcbrandon_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Brandon Skofild [Succès].");
-    }
-
     // -> Visa RP de James.
 
     if (message.content === prefix + "rp-c James Skofild"){
@@ -834,25 +814,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpikad_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Kad Illaq [Succès].");
-    }
-
-    // -> Inventaire RP de Brandon
-
-    if (message.content === prefix + "rp-i Brandon Skofild"){
-        message.delete();
-        var rpibrandon_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/yh1k.jpg")
-            .addField("Voici l'inventaire de Brandon Skofild:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :white_check_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpibrandon_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Brandon Skofild [Succès].");
     }
 
     // -> Inventaire RP de James

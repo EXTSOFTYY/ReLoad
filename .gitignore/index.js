@@ -586,26 +586,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Genki [Succès].");
     }
     
-    // -> Visa RP de Scypak.
-
-    if (message.content === prefix + "rp-c Scypak Opak"){
-        message.delete();
-        var rpcscypak_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Opak" )
-            .addField("Prénom:", "-> Scypak" )
-            .addField("Date de naissance:", "-> 03 juin 1994" )
-            .addField("Nationalité", "-> Belge" )
-            .addField("Lieux de naissance:", "-> Bruxelles" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcscypak_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Scypak Opak [Succès].");
-    }
-    
     // -> Visa RP de Benjamin.
 
     if (message.content === prefix + "rp-c Benjamin Stark"){
@@ -1176,25 +1156,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpialex_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alex Genki [Succès].");
-    }
-    
-    // -> Inventaire RP de Scypak
-
-    if (message.content === prefix + "rp-i Scypak Opak"){
-        message.delete();
-        var rpiscypak_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Scypak Opak:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpiscypak_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Scypak Opak [Succès].");
     }
     
     // -> Inventaire RP de Benjamin

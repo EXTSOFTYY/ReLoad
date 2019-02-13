@@ -646,26 +646,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bryan Smith [Succès].");
     }
     
-    // -> Visa RP de Rorke.
-
-    if (message.content === prefix + "rp-c Rorke Vlascovic"){
-        message.delete();
-        var rpcrorke_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Vlascovic" )
-            .addField("Prénom:", "-> Rorke" )
-            .addField("Date de naissance:", "-> 14 août 1996" )
-            .addField("Nationalité", "-> Sibérien" )
-            .addField("Lieux de naissance:", "-> Novossibisrk" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcrorke_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Rorke Vlascovic [Succès].");
-    }
-    
     // -> Visa RP de Barbaros.
 
     if (message.content === prefix + "rp-c Barbaros Boratav"){
@@ -1293,25 +1273,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpibryan_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Bryan Smith [Succès].");
-    }
-    
-    // -> Inventaire RP de Rorke
-
-    if (message.content === prefix + "rp-i Rorke Vlascovic"){
-        message.delete();
-        var rpirorke_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Rorke Vlascovic:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpirorke_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Rorke Vlascovic [Succès].");
     }
     
     // -> Inventaire RP de Barbaros

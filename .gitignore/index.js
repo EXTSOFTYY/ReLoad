@@ -1316,7 +1316,7 @@ bot.on('message', message => {
     
     // -> Inventaire RP de Barbaros
 
-    if (message.content === prefix + "rp-i Barbaros Boratov"){
+    if (message.content === prefix + "rp-i Barbaros Boratav"){
         message.delete();
         var rpibarbaros_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')

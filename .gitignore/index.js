@@ -688,7 +688,7 @@ bot.on('message', message => {
     
     // -> Visa RP de Alex.
 
-    if (message.content === prefix + "rp-c Alex Aytek "){
+    if (message.content === prefix + "rp-c Alex Aytek"){
         message.delete();
         var rpcalex_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')

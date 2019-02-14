@@ -40,15 +40,21 @@ bot.on('message', message => {
         if(message.author.id == "406124485612142592"){
             message.delete();
             var sondagerp15h_embed = new Discord.RichEmbed()
+                .setThumbnail("http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
+                .setAuthor("ExtaziaRP", "http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 15h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
+                .addField("Seras-tu disponible à la session RP de 15h00 ?!", "Répondez ci-dessous grace aux émojis.")
+                .addField(" ⌛ : ", " Je serais en retard.")
+                .addField(" ✅ : ", " Je serais disponible.")
+                .addField(" ❎ : ", "  Je serais indisponible.")
                 .setColor('#CC2EFA')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
             message.channel.send(sondagerp15h_embed)
             .then(function (message) {
+                message.react("⌛")
                 message.react("❎")
-                message.react("✅")
+                message.react("✅") 
                 console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-15h [Succès].");
             }).catch(function() {
             });
@@ -65,15 +71,21 @@ bot.on('message', message => {
         if(message.author.id == "406124485612142592"){
             message.delete();
             var sondagerp21h_embed = new Discord.RichEmbed()
+                .setThumbnail("http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
+                .setAuthor("ExtaziaRP", "http://image.noelshack.com/fichiers/2018/51/5/1545394316-logoo.png")
                 .setDescription("Sondage :")
-                .addField("Seras-tu disponible à la session RP de 21h00 ?!", "Répondre avec :white_check_mark: ou :negative_squared_cross_mark: (ci-dessous).")
+                .addField("Seras-tu disponible à la session RP de 31h00 ?!", "Répondez ci-dessous grace aux émojis.")
+                .addField(" ⌛ : ", " Je serais en retard.")
+                .addField(" ✅ : ", " Je serais disponible.")
+                .addField(" ❎ : ", "  Je serais indisponible.")
                 .setColor('#CC2EFA')
                 .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
                 .setTimestamp()
             message.channel.send(sondagerp21h_embed)
             .then(function (message) {
+                message.react("⌛")
                 message.react("❎")
-                message.react("✅")
+                message.react("✅") 
                 console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /sondagerp-21h [Succès].");
             }).catch(function() {
             });

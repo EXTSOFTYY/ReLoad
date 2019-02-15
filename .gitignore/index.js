@@ -697,6 +697,106 @@ bot.on('message', message => {
         message.channel.send(rpcalex_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Aytek [Succès].");
     }
+    
+    // -> Visa RP de Harry.
+
+    if (message.content === prefix + "rp-c Harry Trzchernov"){
+        message.delete();
+        var rpcharry_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Trzchernov" )
+            .addField("Prénom:", "-> Harry" )
+            .addField("Date de naissance:", "-> 01 février 1991" )
+            .addField("Nationalité", "-> Russe" )
+            .addField("Lieux de naissance:", "-> Moscou" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcharry_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Harry Trzchernov [Succès].");
+    }
+    
+    // -> Visa RP de Alex.
+
+    if (message.content === prefix + "rp-c Alex Calmant"){
+        message.delete();
+        var rpcalex_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Calmant" )
+            .addField("Prénom:", "-> Alex" )
+            .addField("Date de naissance:", "-> 02 octobre 1998" )
+            .addField("Nationalité", "-> Belge" )
+            .addField("Lieux de naissance:", "-> Namur" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcalex_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Calmant [Succès].");
+    }
+    
+    // -> Visa RP de Pablo.
+
+    if (message.content === prefix + "rp-c Pablo Cannor"){
+        message.delete();
+        var rpccannor_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Cannor" )
+            .addField("Prénom:", "-> Pablo" )
+            .addField("Date de naissance:", "-> 02 octobre 1989" )
+            .addField("Nationalité", "-> Colombien" )
+            .addField("Lieux de naissance:", "-> Bogota" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpccannor_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Pablo Cannor [Succès].");
+    }
+    
+    // -> Visa RP de Tony.
+
+    if (message.content === prefix + "rp-c Tony Rodriguez"){
+        message.delete();
+        var rpctony_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Rodriguez" )
+            .addField("Prénom:", "-> Tony" )
+            .addField("Date de naissance:", "-> 03 mai 1968" )
+            .addField("Nationalité", "-> Américain" )
+            .addField("Lieux de naissance:", "-> Mexico" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpctony_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tony Rodriguez [Succès].");
+    }
+    
+    // -> Visa RP de Mack.
+
+    if (message.content === prefix + "rp-c Mack Wolf"){
+        message.delete();
+        var rpcmack_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Wolf" )
+            .addField("Prénom:", "-> Mack" )
+            .addField("Date de naissance:", "-> 07 novembre 1993" )
+            .addField("Nationalité", "-> Belge" )
+            .addField("Lieux de naissance:", "-> Bruxelles" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcmack_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mack Wolf [Succès].");
+    }
 
     
     

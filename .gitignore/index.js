@@ -1053,7 +1053,7 @@ bot.on('message', message => {
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :white_check_mark: " )
             .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpijamese_embed);

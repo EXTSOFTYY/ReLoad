@@ -218,26 +218,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Kad Illaq [Succès].");
     }
 
-    // -> Visa RP de James.
-
-    if (message.content === prefix + "rp-c James Skofild"){
-        message.delete();
-        var rpcjames_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/xwm3.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Skofild" )
-            .addField("Prénom:", "-> James" )
-            .addField("Date de naissance:", "-> 10 mars 1995" )
-            .addField("Nationalité", "-> Américaine" )
-            .addField("Lieux de naissance:", "-> New York" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcjames_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c James Skofild [Succès].");
-    }
-
     // -> Visa RP de Brisse.
 
     if (message.content === prefix + "rp-c Brisse Denisse"){
@@ -496,26 +476,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcantonio_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Antonio Mantel [Succès].");
-    }
-    
-    // -> Visa RP de Théo.
-
-    if (message.content === prefix + "rp-c Théo Mantel"){
-        message.delete();
-        var rpctheo_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Mantel" )
-            .addField("Prénom:", "-> Théo" )
-            .addField("Date de naissance:", "-> 26 août 1994" )
-            .addField("Nationalité", "-> Français" )
-            .addField("Lieux de naissance:", "-> St Denis" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpctheo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Théo Mantel [Succès].");
     }
     
     // -> Visa RP de Benjamin.
@@ -888,25 +848,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Kad Illaq [Succès].");
     }
 
-    // -> Inventaire RP de James
-
-    if (message.content === prefix + "rp-i James Skofild"){
-        message.delete();
-        var rpijames_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/xwm3.jpg")
-            .addField("Voici l'inventaire de James Skofild:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpijames_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i James Skofild [Succès].");
-    }
-
     // -> Inventaire RP de Brisse
 
     if (message.content === prefix + "rp-i Brisse Denisse"){
@@ -1153,25 +1094,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiantonio_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Antonio Mantel [Succès].");
-    }
-    
-    // -> Inventaire RP de Théo
-
-    if (message.content === prefix + "rp-i Théo Mantel"){
-        message.delete();
-        var rpitheo_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Théo Mantel:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark: " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpitheo_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Théo Mantel [Succès].");
     }
     
     // -> Inventaire RP de Benjamin

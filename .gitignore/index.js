@@ -1132,7 +1132,7 @@ bot.on('message', message => {
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
             .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
-        message.channel.send(rpimalik_embed);
+        message.channel.send(rpimalik_embed); 
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Malik Nzonzi [Succès].");
     }
     
@@ -1164,7 +1164,7 @@ bot.on('message', message => {
             .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
             .addField("Voici l'inventaire de Théo Mantel:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :white_check_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
@@ -1202,7 +1202,7 @@ bot.on('message', message => {
             .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
             .addField("Voici l'inventaire de Favelas Bangbang:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :white_check_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
@@ -1277,8 +1277,8 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/07/hhx9.jpg ")
             .addField("Voici l'inventaire de Harry Trzchernov:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Voiture:", "-> :white_check_mark:  " )
+            .addField("Permis Moto:", "-> :white_check_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
@@ -1315,7 +1315,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/07/vkj4.jpg ")
             .addField("Voici l'inventaire de Pablo Cannor:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
@@ -1353,7 +1353,7 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/07/a8ou.jpg ")
             .addField("Voici l'inventaire de  Mack Wolf:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )

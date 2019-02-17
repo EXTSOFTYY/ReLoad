@@ -558,26 +558,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Barbaros Boratav [Succès].");
     }
     
-    // -> Visa RP de Alex.
-
-    if (message.content === prefix + "rp-c Alex Aytek"){
-        message.delete();
-        var rpcalex_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Aytek" )
-            .addField("Prénom:", "-> Alex" )
-            .addField("Date de naissance:", "-> 09 juin 1994" )
-            .addField("Nationalité", "-> Française" )
-            .addField("Lieux de naissance:", "-> Cayenne (Guyane)" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcalex_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Aytek [Succès].");
-    }
-    
     // -> Visa RP de Harry.
 
     if (message.content === prefix + "rp-c Harry Trzchernov"){
@@ -1170,25 +1150,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpibarbaros_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Barbaros Boratav [Succès].");
-    }
-    
-    // -> Inventaire RP de Alex
-
-    if (message.content === prefix + "rp-i Alex Aytek"){
-        message.delete();
-        var rpialex_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Alex Aytek:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpialex_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alex Aytek [Succès].");
     }
     
     // -> Inventaire RP de Harry

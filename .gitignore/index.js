@@ -637,26 +637,6 @@ bot.on('message', message => {
         message.channel.send(rpctony_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tony Rodriguez [Succès].");
     }
-    
-    // -> Visa RP de Mack.
-
-    if (message.content === prefix + "rp-c Mack Wolf"){
-        message.delete();
-        var rpcmack_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/07/a8ou.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Wolf" )
-            .addField("Prénom:", "-> Mack" )
-            .addField("Date de naissance:", "-> 07 novembre 1993" )
-            .addField("Nationalité", "-> Belge" )
-            .addField("Lieux de naissance:", "-> Bruxelles" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcmack_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mack Wolf [Succès].");
-    }
 
     
     
@@ -1227,26 +1207,6 @@ bot.on('message', message => {
         message.channel.send(rpitonyy_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tony Rodriguez [Succès].");
     }
-    
-    // -> Inventaire RP de Mack
-
-    if (message.content === prefix + "rp-i Mack Wolf"){
-        message.delete();
-        var rpimack_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/07/a8ou.jpg ")
-            .addField("Voici l'inventaire de  Mack Wolf:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpimack_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Mack Wolf [Succès].");
-    }
-
 
 });
 

@@ -184,7 +184,7 @@ bot.on('message', message => {
         message.delete();
         var rpcmike_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/qu2d.jpg")
+            .setThumbnail("https://zupimages.net/up/19/08/zt96.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Marshall" )
             .addField("Prénom:", "-> Mike" )
@@ -697,7 +697,7 @@ bot.on('message', message => {
         message.delete();
         var rpimike_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/qu2d.jpg")
+            .setThumbnail("https://zupimages.net/up/19/08/zt96.jpg")
             .addField("Voici l'inventaire de Mike Marshall:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

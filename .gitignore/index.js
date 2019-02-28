@@ -358,26 +358,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Zarko Markovic [Succès].");
     }
     
-    // -> Visa RP de Sergeï .
-
-    if (message.content === prefix + "rp-c Sergeï Patronov"){
-        message.delete();
-        var rpcserge_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Patronov" )
-            .addField("Prénom:", "-> Sergeï" )
-            .addField("Date de naissance:", "-> 10 décembre 1988" )
-            .addField("Nationalité", "-> Russe" )
-            .addField("Lieux de naissance:", "-> Moscou" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcserge_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Sergeï Patronov [Succès].");
-    }
-    
     // -> Visa RP de Marko.
 
     if (message.content === prefix + "rp-c Marko Markovic"){
@@ -396,26 +376,6 @@ bot.on('message', message => {
             .setTimestamp()
          message.channel.send(rpcmarkovic_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Marko Markovic [Succès].");
-    }
-    
-    // -> Visa RP de Malik.
-
-    if (message.content === prefix + "rp-c Malik Nzonzi"){
-        message.delete();
-        var rpcmalik_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Nzonzi" )
-            .addField("Prénom:", "-> Malik" )
-            .addField("Date de naissance:", "-> 28 novembre 1993" )
-            .addField("Nationalité", "-> Français" )
-            .addField("Lieux de naissance:", "-> Marseille" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcmalik_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Malik Nzonzi [Succès].");
     }
     
     // -> Visa RP de Antonio.
@@ -965,25 +925,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zarko Markovic [Succès].");
     }
     
-    // -> Inventaire RP de Sergeï
-
-    if (message.content === prefix + "rp-i Sergeï Patronov"){
-        message.delete();
-        var rpiserge_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Sergeï Patronov:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpiserge_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Sergeï Patronov [Succès].");
-    }
-    
     // -> Inventaire RP de Marko
 
     if (message.content === prefix + "rp-i Marko Markovic"){
@@ -1001,25 +942,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpimarkovic_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Marko Markovic [Succès].");
-    }
-    
-    // -> Inventaire RP de Malik
-
-    if (message.content === prefix + "rp-i Malik Nzonzi"){
-        message.delete();
-        var rpimalik_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Malik Nzonzi:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpimalik_embed); 
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Malik Nzonzi [Succès].");
     }
     
     // -> Inventaire RP de Antonio

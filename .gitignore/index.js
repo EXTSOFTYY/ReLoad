@@ -478,26 +478,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Pablo Cannor [Succès].");
     }
     
-    // -> Visa RP de Tony.
-
-    if (message.content === prefix + "rp-c Tony Rodriguez"){
-        message.delete();
-        var rpctony_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Rodriguez" )
-            .addField("Prénom:", "-> Tony" )
-            .addField("Date de naissance:", "-> 03 mai 1968" )
-            .addField("Nationalité", "-> Américain" )
-            .addField("Lieux de naissance:", "-> Mexico" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpctony_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Tony Rodriguez [Succès].");
-    }
-    
     // -> Visa RP de James.
 
     if (message.content === prefix + "rp-c James Rodriguez"){
@@ -1036,25 +1016,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpicannor_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Pablo Cannor [Succès].");
-    }
-    
-    // -> Inventaire RP de Tony
-
-    if (message.content === prefix + "rp-i Tony Rodriguez"){
-        message.delete();
-        var rpitonyy_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Tony Rodriguez:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpitonyy_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Tony Rodriguez [Succès].");
     }
     
     // -> Inventaire RP de James

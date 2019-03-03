@@ -464,7 +464,7 @@ bot.on('message', message => {
         message.delete();
         var rpctonymm_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/04/n7lv.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Rodriguez" )
             .addField("Prénom:", "-> James" )
@@ -1005,7 +1005,7 @@ bot.on('message', message => {
         message.delete();
         var rpitonyy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/04/n7lv.jpg ")
             .addField("Voici l'inventaire de James Rodriguez:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )

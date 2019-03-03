@@ -557,6 +557,26 @@ bot.on('message', message => {
         message.channel.send(rpcthibault_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Thibault Savastano [Succès].");
     }
+    
+    // -> Visa RP de Roulio.
+
+    if (message.content === prefix + "rp-c Roulio Ochoa"){
+        message.delete();
+        var rpcroulio_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Ochoa" )
+            .addField("Prénom:", "-> Roulio" )
+            .addField("Date de naissance:", "-> 27 mars 1990" )
+            .addField("Nationalité", "-> Mexiquaine" )
+            .addField("Lieux de naissance:", "-> Guadalajara" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcroulio_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Roulio Ochoa [Succès].");
+    }
 
 
 
@@ -1072,6 +1092,25 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpithibault_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Thibault Savastano [Succès].");
+    }
+    
+    // -> Inventaire RP de Roulio
+
+    if (message.content === prefix + "rp-i Roulio Ochoa"){
+        message.delete();
+        var rpiroulio_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .addField("Voici l'inventaire de Roulio Ochoa:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiroulio_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Roulio Ochoa [Succès].");
     }
 
 });

@@ -244,7 +244,7 @@ bot.on('message', message => {
         message.delete();
         var rpcguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/09/l8n4.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Hart" )
             .addField("Prénom:", "-> Guy" )
@@ -364,7 +364,7 @@ bot.on('message', message => {
         message.delete();
         var rpcantonio_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/09/dd4z.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Mantel" )
             .addField("Prénom:", "-> Antonio" )
@@ -524,7 +524,7 @@ bot.on('message', message => {
         message.delete();
         var rpcmath_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/09/9co9.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Mohrez" )
             .addField("Prénom:", "-> Math" )
@@ -564,7 +564,7 @@ bot.on('message', message => {
         message.delete();
         var rpcroulio_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .setThumbnail("https://zupimages.net/up/19/09/tydc.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Ochoa" )
             .addField("Prénom:", "-> Roulio" )
@@ -776,7 +776,7 @@ bot.on('message', message => {
         message.delete();
         var rpiguy_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/09/l8n4.jpg ")
             .addField("Voici l'inventaire de Guy Hart:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -891,7 +891,7 @@ bot.on('message', message => {
         message.delete();
         var rpiantonio_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/09/dd4z.jpg ")
             .addField("Voici l'inventaire de Antonio Mantel:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
             .addField("Permis Moto:", "-> :white_check_mark:  " )
@@ -1062,7 +1062,7 @@ bot.on('message', message => {
         message.delete();
         var rpimath_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/09/9co9.jpg ")
             .addField("Voici l'inventaire de Math Mohrez:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
@@ -1100,7 +1100,7 @@ bot.on('message', message => {
         message.delete();
         var rpiroulio_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
+            .setThumbnail(" https://zupimages.net/up/19/09/tydc.jpg ")
             .addField("Voici l'inventaire de Roulio Ochoa:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

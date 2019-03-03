@@ -338,26 +338,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Aly Gatares [Succès].");
     }
     
-    // -> Visa RP de Zarko.
-
-    if (message.content === prefix + "rp-c Zarko Markovic"){
-        message.delete();
-        var rpczarko_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/8t6o.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Markovic" )
-            .addField("Prénom:", "-> Zarko" )
-            .addField("Date de naissance:", "-> 11 janvier 2000" )
-            .addField("Nationalité", "-> Serbe" )
-            .addField("Lieux de naissance:", "-> Belgrade" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpczarko_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Zarko Markovic [Succès].");
-    }
-    
     // -> Visa RP de Marko.
 
     if (message.content === prefix + "rp-c Marko Markovic"){
@@ -864,25 +844,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpialy_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Aly Gatares [Succès].");
-    }
-    
-    // -> Inventaire RP de Zarko
-
-    if (message.content === prefix + "rp-i Zarko Markovic"){
-        message.delete();
-        var rpizarko_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/8t6o.jpg")
-            .addField("Voici l'inventaire de Zarko Marković:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark: " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :white_check_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpizarko_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zarko Markovic [Succès].");
     }
     
     // -> Inventaire RP de Marko

@@ -418,26 +418,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Harry Trzchernov [Succès].");
     }
     
-    // -> Visa RP de Alex.
-
-    if (message.content === prefix + "rp-c Alex Calmant"){
-        message.delete();
-        var rpcalex_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Calmant" )
-            .addField("Prénom:", "-> Alex" )
-            .addField("Date de naissance:", "-> 02 octobre 1998" )
-            .addField("Nationalité", "-> Belge" )
-            .addField("Lieux de naissance:", "-> Namur" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcalex_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Alex Calmant [Succès].");
-    }
-    
     // -> Visa RP de Pablo.
 
     if (message.content === prefix + "rp-c Pablo Cannor"){
@@ -875,7 +855,7 @@ bot.on('message', message => {
             .setThumbnail(" https://zupimages.net/up/19/06/z5ng.jpg ")
             .addField("Voici l'inventaire de Marko Markovic:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :white_check_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :white_check_mark: " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )
@@ -959,25 +939,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiharry_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Harry Trzchernov [Succès].");
-    }
-    
-    // -> Inventaire RP de Alex
-
-    if (message.content === prefix + "rp-i Alex Calmant"){
-        message.delete();
-        var rpialexx_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/02/ofmn.jpeg ")
-            .addField("Voici l'inventaire de Alex Calmant:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpialexx_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Alex Calmant [Succès].");
     }
     
     // -> Inventaire RP de Pablo
@@ -1102,8 +1063,8 @@ bot.on('message', message => {
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/09/tydc.jpg ")
             .addField("Voici l'inventaire de Roulio Ochoa:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Voiture:", "-> :white_check_mark: " )
+            .addField("Permis Moto:", "-> :white_check_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
             .addField("PPA:", "-> :negative_squared_cross_mark: " )

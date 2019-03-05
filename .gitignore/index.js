@@ -378,26 +378,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Antonio Mantel [Succès].");
     }
     
-    // -> Visa RP de Harry.
-
-    if (message.content === prefix + "rp-c Harry Trzchernov"){
-        message.delete();
-        var rpcharry_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/07/hhx9.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Trzchernov" )
-            .addField("Prénom:", "-> Harry" )
-            .addField("Date de naissance:", "-> 01 février 1991" )
-            .addField("Nationalité", "-> Russe" )
-            .addField("Lieux de naissance:", "-> Moscou" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcharry_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Harry Trzchernov [Succès].");
-    }
-    
     // -> Visa RP de Pablo.
 
     if (message.content === prefix + "rp-c Pablo Cannor"){
@@ -862,25 +842,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiantonio_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Antonio Mantel [Succès].");
-    }
-    
-    // -> Inventaire RP de Harry
-
-    if (message.content === prefix + "rp-i Harry Trzchernov"){
-        message.delete();
-        var rpiharry_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/07/hhx9.jpg ")
-            .addField("Voici l'inventaire de Harry Trzchernov:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark:  " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("copyright ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpiharry_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Harry Trzchernov [Succès].");
     }
     
     // -> Inventaire RP de Pablo

@@ -538,26 +538,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Joachim Sanders [Succès].");
     }
     
-    // -> Visa RP de Zayd.
-
-    if (message.content === prefix + "rp-c Zayd Tremblay"){
-        message.delete();
-        var rpczayd_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Tremblay" )
-            .addField("Prénom:", "-> Zayd" )
-            .addField("Date de naissance:", "-> 21 juillet 1992" )
-            .addField("Nationalité", "-> Marrocain" )
-            .addField("Lieux de naissance:", "-> Casablanca" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpczayd_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Zayd Tremblay [Succès].");
-    }
-    
     // -> Visa RP de Théodore.
 
     if (message.content === prefix + "rp-c Théodore Bagwell"){
@@ -1055,25 +1035,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpijoachim_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Joachim Sanders [Succès].");
-    }
-    
-    // -> Inventaire RP de Zayd
-
-    if (message.content === prefix + "rp-i Zayd Tremblay"){
-        message.delete();
-        var rpizayd_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
-            .addField("Voici l'inventaire de Zayd Tremblay:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpizayd_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Zayd Tremblay [Succès].");
     }
     
     // -> Inventaire RP de Théodore

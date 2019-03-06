@@ -304,7 +304,7 @@ bot.on('message', message => {
         message.delete();
         var rpcbryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/05/af9a.jpg")
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
             .addField("Carte d'identité :", "─────────────────────" )
             .addField("Nom:", "-> Sweet" )
             .addField("Prénom:", "-> Taylor" )
@@ -815,7 +815,7 @@ bot.on('message', message => {
         message.delete();
         var rpibryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail(" https://zupimages.net/up/19/05/af9a.jpg ")
+            .setThumbnail(" https://zupimages.net/up/19/04/6i5o.jpg%22 ")
             .addField("Voici l'inventaire de Taylor Sweet:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

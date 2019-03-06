@@ -298,24 +298,24 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Mehdi Yacoub [Succès].");
     }
 
-    // -> Visa RP de Bryan.
+    // -> Visa RP de Taylor.
 
-    if (message.content === prefix + "rp-c Bryan Johnson"){
+    if (message.content === prefix + "rp-c Taylor Sweet"){
         message.delete();
         var rpcbryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail("https://zupimages.net/up/19/05/af9a.jpg")
             .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Johnson" )
-            .addField("Prénom:", "-> Bryan" )
-            .addField("Date de naissance:", "-> 14 fevrier 1996" )
-            .addField("Nationalité", "-> Américaine" )
-            .addField("Lieux de naissance:", "-> Chicago" )
+            .addField("Nom:", "-> Sweet" )
+            .addField("Prénom:", "-> Taylor" )
+            .addField("Date de naissance:", "-> 05 septembre 2000" )
+            .addField("Nationalité", "-> Française" )
+            .addField("Lieux de naissance:", "-> Bordeaux" )
             .addField("Sexe:", "-> Masculin" )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpcbryan_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Bryan Johnson [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Taylor Sweet [Succès].");
     }
     
     // -> Visa RP de Aly.
@@ -809,23 +809,23 @@ bot.on('message', message => {
     }
 
 
-    // -> Inventaire RP de Bryan
+    // -> Inventaire RP de Taylor
 
-    if (message.content === prefix + "rp-i Bryan Johnson"){
+    if (message.content === prefix + "rp-i Taylor Sweet"){
         message.delete();
         var rpibryan_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
             .setThumbnail(" https://zupimages.net/up/19/05/af9a.jpg ")
-            .addField("Voici l'inventaire de Bryan Johnson:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :white_check_mark: " )
+            .addField("Voici l'inventaire de Taylor Sweet:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
             .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :white_check_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
             .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
             .setTimestamp()
         message.channel.send(rpibryan_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Bryan Johnson [Succès].");
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Taylor Sweet [Succès].");
     }
     
     // -> Inventaire RP de Aly

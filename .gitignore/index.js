@@ -578,26 +578,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Garrett Robinson [Succès].");
     }
     
-    // -> Visa RP de Sishui.
-
-    if (message.content === prefix + "rp-c Sishui Teix"){
-        message.delete();
-        var rpcsishui_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Teix " )
-            .addField("Prénom:", "-> Sishui" )
-            .addField("Date de naissance:", "-> 19 Juillet 1996" )
-            .addField("Nationalité", "-> Portuguaise" )
-            .addField("Lieux de naissance:", "-> Lisbonne" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcsishui_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Sishui Teix [Succès].");
-    }
-    
     // -> Visa RP de Christophe.
 
     if (message.content === prefix + "rp-c Christophe Walker"){
@@ -1255,25 +1235,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpigarrett_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Garrett Robinson [Succès].");
-    }
-    
-    // -> Inventaire RP de Sishui
-
-    if (message.content === prefix + "rp-i Sishui Teix"){
-        message.delete();
-        var rpisishui_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
-            .addField("Voici l'inventaire de Sishui Teix:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpisishui_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Sishui Teix [Succès].");
     }
     
     // -> Inventaire RP de Christophe

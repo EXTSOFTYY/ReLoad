@@ -1396,7 +1396,7 @@ bot.on('message', message => {
         message.delete();
         var rpimalcom_embed = new Discord.RichEmbed()
             .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22)
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
             .addField("Voici l'inventaire de Malcom Shelby:", "─────────────────────" )
             .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
             .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )

@@ -617,6 +617,128 @@ bot.on('message', message => {
         message.channel.send(rpcchristophe_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Christophe Walker [Succès].");
     }
+    
+    // -> Visa RP de Thomas.
+
+    if (message.content === prefix + "rp-c Thomas Shelby"){
+        message.delete();
+        var rpcthomas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Shelby" )
+            .addField("Prénom:", "-> Thomas" )
+            .addField("Date de naissance:", "-> 13 septembre 1993" )
+            .addField("Nationalité", "-> Anglaise" )
+            .addField("Lieux de naissance:", "-> Manchester" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcthomas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Thomas Shelby [Succès].");
+    }
+    
+    // -> Visa RP de Joe.
+
+    if (message.content === prefix + "rp-c Joe Lafarté"){
+        message.delete();
+        var rpcjoe_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Lafarté" )
+            .addField("Prénom:", "-> Joe" )
+            .addField("Date de naissance:", "-> 12 juillet 1996" )
+            .addField("Nationalité", "-> Française" )
+            .addField("Lieux de naissance:", "-> Besançon" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcjoe_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Joe Lafarté [Succès].");
+    }
+    
+    // -> Visa RP de Arthur.
+
+    if (message.content === prefix + "rp-c Arthur Shelby"){
+        message.delete();
+        var rpcarthur_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Shelby" )
+            .addField("Prénom:", "-> Arthur" )
+            .addField("Date de naissance:", "-> 17 juillet 1994" )
+            .addField("Nationalité", "-> Anglaise" )
+            .addField("Lieux de naissance:", "-> Manchester" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcarthur_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Arthur Shelby [Succès].");
+    }
+    
+    // -> Visa RP de Miguel.
+
+    if (message.content === prefix + "rp-c Miguel Vagos"){
+        message.delete();
+        var rpcmiguel_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Vagos" )
+            .addField("Prénom:", "-> Miguel" )
+            .addField("Date de naissance:", "-> 9 avril 1996" )
+            .addField("Nationalité", "-> Mexicaine" )
+            .addField("Lieux de naissance:", "-> Mexico" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcmiguel_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Miguel Vagos [Succès].");
+    }
+    
+    // -> Visa RP de Scott.
+
+    if (message.content === prefix + "rp-c Scott Kelmendi"){
+        message.delete();
+        var rpcscott_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Kelmendi" )
+            .addField("Prénom:", "-> Scott" )
+            .addField("Date de naissance:", "-> 25 avril 1998" )
+            .addField("Nationalité", "-> Albanaise" )
+            .addField("Lieux de naissance:", "-> Tirana" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcscott_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Scott Kelmendi [Succès].");
+    }
+    
+    // -> Visa RP de Malcom.
+
+    if (message.content === prefix + "rp-c Malcom Shelby"){
+        message.delete();
+        var rpcmalcom_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Shelby" )
+            .addField("Prénom:", "-> Malcom" )
+            .addField("Date de naissance:", "-> 22 Décembre 1992" )
+            .addField("Nationalité", "-> Anglaise" )
+            .addField("Lieux de naissance:", "-> Cardiff" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcmalcom_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Malcom Shelby [Succès].");
+    }
+
+
 
 
 
@@ -1172,9 +1294,121 @@ bot.on('message', message => {
         message.channel.send(rpichristophe_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Christophe Walker [Succès].");
     }
+    
+    // -> Inventaire RP de Thomas
 
+    if (message.content === prefix + "rp-i Thomas Shelby"){
+        message.delete();
+        var rpithomas_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Thomas Shelby:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpithomas_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Thomas Shelby [Succès].");
+    }
+    
+    // -> Inventaire RP de Joe
 
+    if (message.content === prefix + "rp-i Joe Labarté"){
+        message.delete();
+        var rpijoe_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Joe Labarté:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpijoe_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Joe Labarté [Succès].");
+    }
+    
+    // -> Inventaire RP de Arthur
 
+    if (message.content === prefix + "rp-i Arthur Shelby"){
+        message.delete();
+        var rpiarthur_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Arthur Shelby:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiarthur_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Arthur Shelby [Succès].");
+    }
+    
+    // -> Inventaire RP de Miguel
+
+    if (message.content === prefix + "rp-i Miguel Vagos"){
+        message.delete();
+        var rpimiguel_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Miguel Vagos:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpimiguel_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Miguel Vagos [Succès].");
+    }
+    
+    // -> Inventaire RP de Scott
+
+    if (message.content === prefix + "rp-i Scott Kelmendi"){
+        message.delete();
+        var rpiscott_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Scott Kelmendi:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpiscott_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Scott Kelmendi [Succès].");
+    }
+    
+    // -> Inventaire RP de Malcom
+
+    if (message.content === prefix + "rp-i Malcom Shelby"){
+        message.delete();
+        var rpimalcom_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22)
+            .addField("Voici l'inventaire de Malcom Shelby:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpimalcom_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Malcom Shelby [Succès].");
+    }
+    
 });
 
 bot.login(process.env.TOKEN);

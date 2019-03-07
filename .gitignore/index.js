@@ -597,6 +597,26 @@ bot.on('message', message => {
         message.channel.send(rpcsishui_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Sishui Teix [Succès].");
     }
+    
+    // -> Visa RP de Christophe.
+
+    if (message.content === prefix + "rp-c Christophe Walker"){
+        message.delete();
+        var rpcchristophe_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
+            .addField("Carte d'identité :", "─────────────────────" )
+            .addField("Nom:", "-> Walker " )
+            .addField("Prénom:", "-> Christophe" )
+            .addField("Date de naissance:", "-> 10 avril 1979" )
+            .addField("Nationalité", "-> Belge" )
+            .addField("Lieux de naissance:", "-> Bruxelles" )
+            .addField("Sexe:", "-> Masculin" )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpcchristophe_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Christophe Walker [Succès].");
+    }
 
 
 
@@ -1133,6 +1153,26 @@ bot.on('message', message => {
         message.channel.send(rpisishui_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Sishui Teix [Succès].");
     }
+    
+    // -> Inventaire RP de Christophe
+
+    if (message.content === prefix + "rp-i Christophe Walker"){
+        message.delete();
+        var rpichristophe_embed = new Discord.RichEmbed()
+            .setColor('#CC2EFA')
+            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
+            .addField("Voici l'inventaire de Christophe Walker:", "─────────────────────" )
+            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
+            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
+            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
+            .addField("PPA:", "-> :negative_squared_cross_mark: " )
+            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
+            .setTimestamp()
+        message.channel.send(rpichristophe_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Christophe Walker [Succès].");
+    }
+
 
 
 });

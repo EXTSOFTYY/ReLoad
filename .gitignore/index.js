@@ -558,26 +558,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Théodore Bagwell [Succès].");
     }
     
-    // -> Visa RP de Garrett.
-
-    if (message.content === prefix + "rp-c Garrett Robinson"){
-        message.delete();
-        var rpcgarrett_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/10/gffi.jpg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Robinson" )
-            .addField("Prénom:", "-> Garrett" )
-            .addField("Date de naissance:", "-> 12 octobre 1976" )
-            .addField("Nationalité", "-> Américaine" )
-            .addField("Lieux de naissance:", "-> Sacramento" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcgarrett_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Garrett Robinson [Succès].");
-    }
-    
     // -> Visa RP de Thomas.
 
     if (message.content === prefix + "rp-c Thomas Shelby"){
@@ -636,26 +616,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpcarthur_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Arthur Shelby [Succès].");
-    }
-    
-    // -> Visa RP de Miguel.
-
-    if (message.content === prefix + "rp-c Miguel Vagos"){
-        message.delete();
-        var rpcmiguel_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/02/ofmn.jpeg")
-            .addField("Carte d'identité :", "─────────────────────" )
-            .addField("Nom:", "-> Vagos" )
-            .addField("Prénom:", "-> Miguel" )
-            .addField("Date de naissance:", "-> 9 avril 1996" )
-            .addField("Nationalité", "-> Mexicaine" )
-            .addField("Lieux de naissance:", "-> Mexico" )
-            .addField("Sexe:", "-> Masculin" )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpcmiguel_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-c Miguel Vagos [Succès].");
     }
     
     // -> Visa RP de Malcom.
@@ -1279,25 +1239,6 @@ bot.on('message', message => {
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Théodore Bagwell [Succès].");
     }
     
-    // -> Inventaire RP de Garrett
-
-    if (message.content === prefix + "rp-i Garrett Robinson"){
-        message.delete();
-        var rpigarrett_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/10/gffi.jpg")
-            .addField("Voici l'inventaire de Garrett Robinson:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpigarrett_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Garrett Robinson [Succès].");
-    }
-    
     // -> Inventaire RP de Thomas
 
     if (message.content === prefix + "rp-i Thomas Shelby"){
@@ -1353,25 +1294,6 @@ bot.on('message', message => {
             .setTimestamp()
         message.channel.send(rpiarthur_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Arthur Shelby [Succès].");
-    }
-    
-    // -> Inventaire RP de Miguel
-
-    if (message.content === prefix + "rp-i Miguel Vagos"){
-        message.delete();
-        var rpimiguel_embed = new Discord.RichEmbed()
-            .setColor('#CC2EFA')
-            .setThumbnail("https://zupimages.net/up/19/04/6i5o.jpg%22")
-            .addField("Voici l'inventaire de Miguel Vagos:", "─────────────────────" )
-            .addField("Permis Voiture:", "-> :negative_squared_cross_mark:  " )
-            .addField("Permis Moto:", "-> :white_check_mark:  " )
-            .addField("Permis Bateau:", "-> :negative_squared_cross_mark: " )
-            .addField("Permis Avion / Hélicoptère:", "-> :negative_squared_cross_mark:    ─   :negative_squared_cross_mark: " )
-            .addField("PPA:", "-> :negative_squared_cross_mark: " )
-            .setFooter("© ExtaziaRP; Développement par SOFTYY - 2018/2019.")
-            .setTimestamp()
-        message.channel.send(rpimiguel_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /rp-i Miguel Vagos [Succès].");
     }
     
     // -> Inventaire RP de Malcom

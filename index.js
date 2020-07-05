@@ -7,7 +7,7 @@ var prefix = ("/");
     // -> Logs d'informations.
 
 bot.on('ready', () => {
-    bot.user.setPresence({ game: { name: 'ExtaziaRP.', type : 0}})
+    bot.user.setPresence({ game: { name: 'ReLoad.', type : 0}})
     console.log("[BOT ReLoad] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
 });
 

@@ -1,7 +1,7 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "Bot discord pour ExtaziaRP.",
+  "description": "Bot discord ReLoad.",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.4.2"
@@ -10,6 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "SOFTYY",
+  "author": "EXT_SOFTYY",
   "license": "ISC"
 }

@@ -19,7 +19,7 @@ bot.on('message', message => {
     // -> Commande /annonce.
 
     if (command === 'annonce') {
-        if(message.author.id == "406124485612142592"){
+        if(message.author.id == "344771703039066113"){
             let say = args.join(' ');
             message.delete();
             message.channel.send(say);

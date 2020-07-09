@@ -26,6 +26,23 @@ bot.on('message', message => {
             console.log("[BOT ReLoad] LOGS -> Un utilisateur demande la commande -> /annonce [<message>] [Succès].");
         }
     }
+  
+  // -> Commande /vote.
+    
+    if (message.content === prefix + "vote"){
+        message.delete();
+        var vote_embed = new Discord.RichEmbed()
+            .setColor('#134f73')
+            .setThumbnail("https://zupimages.net/up/20/28/9scu.png")
+            .setAuthor("ReLoad", "https://zupimages.net/up/20/28/9scu.png")
+            .addField("**Comment puis-je soutenir le serveur gratuitement ?**", "─────────────────────")
+            .addField("**Il vous suffit de cliquer sur le lien ci-dessous:**", "**https://top-serveurs.net/gta/reload-18**")
+            .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
+            .setFooter("© ReLoad; Développement par EXT_SOFTYY.")
+            .setTimestamp()
+        message.channel.send(vote_embed);
+        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
+    }
     
 });
 

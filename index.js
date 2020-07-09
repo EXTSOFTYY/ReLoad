@@ -1,6 +1,5 @@
   
 const Discord = require('discord.js');
-const MIN_INTERVAL = 500;
 
 var bot = new Discord.Client();
 var prefix = ("/");
@@ -11,11 +10,6 @@ bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'ReLoad™', type : 0}})
     console.log("[BOT ReLoad] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
 });
-
-setInterval(function(){
-    var staffChannel = bot.channels.get("729969260075548739");
-    staffChannel.send("test, world!") ;
-}, MIN_INTERVAL);
 
 bot.on('message', message => {
     

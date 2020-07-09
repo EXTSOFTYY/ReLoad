@@ -1,6 +1,6 @@
   
 const Discord = require('discord.js');
-const MIN_INTERVAL = 2000;
+const MIN_INTERVAL = 7200000;
 
 var bot = new Discord.Client();
 var prefix = ("/");
@@ -13,7 +13,7 @@ bot.on('ready', () => {
 });
 
 setInterval(function(){
-    var staffChannel = bot.channels.get("729969260075548739");
+    var staffChannel = bot.channels.get("727176639506677811");
     staffChannel.send("/vote") ;
 }, MIN_INTERVAL);
 

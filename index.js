@@ -42,7 +42,7 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/20/28/9scu.png")
             .setAuthor("ReLoad", "https://zupimages.net/up/20/28/9scu.png")
             .addField("**Vous pouvez voter pour la page TopServeur de ReLoad avec le lien ci-dessous:**", "─────────────────────")
-            .addField("**https://top-serveurs.net/gta/reload-18**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs**")
+            .addField("**https://top-serveurs.net/gta/reload-18**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
             .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
             .setFooter("© ReLoad; Développement par EXT_SOFTYY.")
             .setTimestamp()

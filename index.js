@@ -9,11 +9,6 @@ var prefix = ("/");
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'ReLoad™', type : 0}})
     console.log("[BOT ReLoad] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
-    
-    var staffChannel = client.channels.find(channel => channel.id === '729969260075548739');
-    setInterval(() => {
-      staffChannel.send("test message auto 5s.");
-     }, 5000);
   
 });
 

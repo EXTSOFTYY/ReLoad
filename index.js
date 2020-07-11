@@ -44,7 +44,7 @@ bot.on('message', message => {
             .addField("**Vous pouvez voter pour la page TopServeur de ReLoad avec le lien ci-dessous:**", "─────────────────────")
             .addField("**https://top-serveurs.net/gta/reload-18**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
             .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
-            .setFooter("© ReLoad; Développement par EXT_SOFTYY.")
+            .setFooter("© ReLoad • Développement par EXT_SOFTYY")
             .setTimestamp()
         message.channel.send(vote_embed);
         console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");

@@ -12,6 +12,18 @@ bot.on('ready', () => {
     console.log("[BOT ReLoad] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
 });
 
+    // -> Rejoindre / quitter le serveur.
+
+bot.on("guildMemberAdd", member => {
+    member.guild.channels.find("name", "logs-discord").send(`[BOT ReLoad] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur !`)
+})
+
+bot.on("guildMemberRemove", member => {
+    member.guild.channels.find("name", "logs-discord").send(`[BOT ReLoad] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur !`)
+})
+
+    // -> /vote
+
 setInterval(function(){
     var staffChannel = bot.channels.get("727176639506677811");
     staffChannel.send("/vote") ;

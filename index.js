@@ -25,7 +25,7 @@ bot.on("guildMemberRemove", member => {
     // -> /vote
 
 setInterval(function(){
-    var staffChannel = bot.channels.get("727176639506677811");
+    var staffChannel = bot.channels.get("741282602677436476");
     staffChannel.send("/vote") ;
 }, MIN_INTERVAL);
 

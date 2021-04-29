@@ -8,18 +8,18 @@ var prefix = ("/");
     // -> Logs d'informations.
 
 bot.on('ready', () => {
-    bot.user.setPresence({ game: { name: 'ReLoad™', type : 0}})
+    bot.user.setPresence({ game: { name: 'LifeTime ™', type : 0}})
     console.log("[BOT LifeTime ™] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
 });
 
     // -> Rejoindre / quitter le serveur.
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "logs-discord").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur !`)
+    member.guild.channels.find("name", "🎬-générique").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur !`)
 })
 
 bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "logs-discord").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur !`)
+    member.guild.channels.find("name", "🎬-générique").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur !`)
 })
 
     // -> /vote

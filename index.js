@@ -9,17 +9,17 @@ var prefix = ("/");
 
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'ReLoad™', type : 0}})
-    console.log("[BOT ReLoad] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
+    console.log("[BOT LifeTime ™] LOGS -> Le bot est actuellement en ligne sur les serveurs discord. [Succès]");
 });
 
     // -> Rejoindre / quitter le serveur.
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "logs-discord").send(`[BOT ReLoad] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur !`)
+    member.guild.channels.find("name", "logs-discord").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de rejoindre le serveur !`)
 })
 
 bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "logs-discord").send(`[BOT ReLoad] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur !`)
+    member.guild.channels.find("name", "logs-discord").send(`[BOT LifeTime ™] LOGS -> :checkered_flag: <@${member.user.id}> vient de quitter le serveur !`)
 })
 
     // -> /vote
@@ -41,7 +41,7 @@ bot.on('message', message => {
             let say = args.join(' ');
             message.delete();
             message.channel.send(say);
-            console.log("[BOT ReLoad] LOGS -> Un utilisateur demande la commande -> /annonce [<message>] [Succès].");
+            console.log("[BOT LifeTime ™] LOGS -> Un utilisateur demande la commande -> /annonce [<message>] [Succès].");
         }
     }
   
@@ -50,16 +50,16 @@ bot.on('message', message => {
     if (message.content === prefix + "vote"){
         message.delete();
         var vote_embed = new Discord.RichEmbed()
-            .setColor('#134f73')
-            .setThumbnail("https://zupimages.net/up/20/28/9scu.png")
-            .setAuthor("ReLoad", "https://zupimages.net/up/20/28/9scu.png")
-            .addField("**Vous pouvez voter pour la page TopServeur de ReLoad avec le lien ci-dessous:**", "─────────────────────")
-            .addField("**https://top-serveurs.net/gta/reload-18**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
+            .setColor('#ffd6fc')
+            .setThumbnail("https://zupimages.net/up/21/17/otgp.png")
+            .setAuthor("LifeTime ™", "https://zupimages.net/up/21/17/otgp.png")
+            .addField("**Vous pouvez voter pour la page TopServeur de LifeTime avec le lien ci-dessous:**", "─────────────────────")
+            .addField("**SOON**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
             .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
-            .setFooter("© ReLoad • Développement par EXT_SOFTYY")
+            .setFooter("© LifeTime • Développement par EXT_SOFTYY")
             .setTimestamp()
         message.channel.send(vote_embed);
-        console.log("[BOT ExtaziaRP] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
+        console.log("[BOT LifeTime ™] LOGS -> Un utilisateur demande la commande -> /vote [Succès].");
     }
     
 });

@@ -25,7 +25,7 @@ bot.on("guildMemberRemove", member => {
     // -> /vote
 
 setInterval(function(){
-    var staffChannel = bot.channels.get("741282602677436476");
+    var staffChannel = bot.channels.get("836861057943339041");
     staffChannel.send("/vote") ;
 }, MIN_INTERVAL);
 
@@ -37,7 +37,7 @@ bot.on('message', message => {
     // -> Commande /annonce.
 
     if (command === 'annonce') {
-        if(message.author.id == "406124485612142592", "667649823285182475"){
+        if(message.author.id == "406124485612142592"){
             let say = args.join(' ');
             message.delete();
             message.channel.send(say);
@@ -54,7 +54,7 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/21/17/otgp.png")
             .setAuthor("LifeTime ™", "https://zupimages.net/up/21/17/otgp.png")
             .addField("**Vous pouvez voter pour la page TopServeur de LifeTime avec le lien ci-dessous:**", "─────────────────────")
-            .addField("**SOON**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
+            .addField("**https://top-serveurs.net/gta/lifetime-18-wl**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
             .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
             .setFooter("© LifeTime • Développement par EXT_SOFTYY")
             .setTimestamp()

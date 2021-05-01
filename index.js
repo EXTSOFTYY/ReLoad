@@ -45,20 +45,11 @@ bot.on('message', message => {
         }
     }
   
-  // -> Commande /bite.
-
-    if (command === 'bite') {
-        if(message.author.id == "406124485612142592"){
-            message.delete();
-            message.channel.send("@everyone");
-            console.log("[BOT LifeTime ™] LOGS -> Un utilisateur demande la commande -> /bite [Succès].");
-        }
-    }
-  
   // -> Commande /vote.
     
     if (message.content === prefix + "vote"){
         message.delete();
+        message.channel.send("Hello ! Pense a te rendre sur TopServeur il est l'heure de voter ! @everyone");
         var vote_embed = new Discord.RichEmbed()
             .setColor('#ffd6fc')
             .setThumbnail("https://zupimages.net/up/21/17/otgp.png")

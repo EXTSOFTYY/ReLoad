@@ -45,6 +45,16 @@ bot.on('message', message => {
         }
     }
   
+  // -> Commande /bite.
+
+    if (command === 'bite') {
+        if(message.author.id == "406124485612142592"){
+            message.delete();
+            message.channel.send("@everyone");
+            console.log("[BOT LifeTime ™] LOGS -> Un utilisateur demande la commande -> /bite [Succès].");
+        }
+    }
+  
   // -> Commande /vote.
     
     if (message.content === prefix + "vote"){

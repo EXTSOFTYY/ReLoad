@@ -49,7 +49,7 @@ bot.on('message', message => {
     
     if (message.content === prefix + "vote"){
         message.delete();
-        message.channel.send("Hello ! Pense a te rendre sur TopServeur il est l'heure de voter ! @everyone");
+        message.channel.send("Hello ! Pense à te rendre sur TopServeur il est l'heure de voter ! @everyone");
         var vote_embed = new Discord.RichEmbed()
             .setColor('#ffd6fc')
             .setThumbnail("https://zupimages.net/up/21/17/otgp.png")

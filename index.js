@@ -55,7 +55,7 @@ bot.on('message', message => {
             .setThumbnail("https://zupimages.net/up/21/17/otgp.png")
             .setAuthor("LifeTime ™", "https://zupimages.net/up/21/17/otgp.png")
             .addField("**Vous pouvez voter pour la page TopServeur de LifeTime avec le lien ci-dessous:**", "─────────────────────")
-            .addField("**https://top-serveurs.net/gta/lifetime-18-wl**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
+            .addField("**https://top-serveurs.net/gta/lifetime-18-wl-dlcs-cayo**", "**Voter sera __NOTRE PRINCIPALE__ source de nouveaux joueurs.**")
             .addField("─────────────────────", "Merci aux personnes qui voteront pour le serveur ! ❤️")
             .setFooter("© LifeTime • Développement par EXT_SOFTYY")
             .setTimestamp()
